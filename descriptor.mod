@@ -1,6 +1,6 @@
-version="1.0.0"
+version="1.10.3"
 tags={
 	"Alternative History"
 }
-name="Totalsieg"
+name="Men In The Castle"
 supported_version="1.10.3"
