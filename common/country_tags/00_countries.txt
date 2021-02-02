@@ -10,6 +10,34 @@ URL	= "countries/western_european.txt" # Militärverwaltung Ural
 RKI	= "countries/western_european.txt" # Reichskommissariat Norditalien
 RKS	= "countries/western_european.txt" # Reichskommissariat Skandinavien
 
+# Russia
+JA1 = "countries/Norilsk.txt"
+JA2 = "countries/Norilsk.txt"
+RU1 = "countries/Norilsk.txt"
+RU2 = "countries/Norilsk.txt"
+RU3 = "countries/Norilsk.txt"
+RU4 = "countries/Norilsk.txt"
+RU5 = "countries/Norilsk.txt"
+RU6 = "countries/Norilsk.txt"
+RU7 = "countries/Norilsk.txt"
+RU8 = "countries/Norilsk.txt"
+RU9 = "countries/Norilsk.txt"
+R10 = "countries/Norilsk.txt"
+Berezovo = "countries/Norilsk.txt"
+RV1 = "countries/Anarchy.txt"
+
+# China
+CH1 = "countries/Jiuquan Clqiue.txt"
+CH2 = "countries/Jiuquan Clqiue.txt"
+CH3 = "countries/Jiuquan Clqiue.txt"
+CH4 = "countries/Jiuquan Clqiue.txt"
+CH5 = "countries/Jiuquan Clqiue.txt"
+CH6 = "countries/Jiuquan Clqiue.txt"
+CH7 = "countries/Jiuquan Clqiue.txt"
+CH8 = "countries/Jiuquan Clqiue.txt"
+
+
+
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"
