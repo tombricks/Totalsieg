@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
 }
 ENG = {
 	color = rgb { 201 56 93 }
@@ -17,21 +17,24 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 98 98 98 }
+	color_ui = rgb { 98 98 98 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
+BEL = {
+	color = rgb { 80 80 80 }
+	color_ui = rgb { 80 80 80 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+HOL = {
+	color = rgb { 145 145 145 }
+	color_ui = rgb { 145 145 145 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {
+	color = rgb { 85 85 85 }
+	color_ui = rgb { 85 85 85 }
 }
 POL = {
 	color = rgb { 197 92 106 }
@@ -90,8 +93,8 @@ NOR = {
 	color_ui = rgb { 144 92 92 }
 }
 DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 170 170 170 }
+	color_ui = rgb { 170 170 170 }
 }
 BUL = {
 	color = rgb { 51 155 0 }
@@ -102,8 +105,8 @@ POR = {
 	color_ui = rgb { 51 151 91 }
 }
 FIN = {
-	color = rgb { 205 212 228 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 200 200 200 }
+	color_ui = rgb { 200 200 200 }
 }
 IRE = {
 	color = rgb { 80 159 90 }
@@ -704,14 +707,38 @@ SHL = {
 	color_ui = rgb { 51 51 255 }
 }
 RKO = {
-	color = rgb { 100 100 100 }
-	color_ui = rgb { 100 100 100 }
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
 }
 GGN = {
 	color = rgb { 100 100 100 }
 	color_ui = rgb { 100 100 100 }
 }
 RKU = {
-	color = rgb { 100 100 100 }
-	color_ui = rgb { 100 100 100 }
+	color = rgb { 140 140 140 }
+	color_ui = rgb { 140 140 140 }
+}
+RKM = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+RKD = {
+	color = rgb { 130 130 130 }
+	color_ui = rgb { 130 130 130 }
+}
+RKK = {
+	color = rgb { 90 90 90 }
+	color_ui = rgb { 90 90 90 }
+}
+URL = {
+	color = rgb { 170 170 170 }
+	color_ui = rgb { 170 170 170 }
+}
+RKI = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
+}
+RKS = {
+	color = rgb { 120 120 120 }
+	color_ui = rgb { 120 120 120 }
 }

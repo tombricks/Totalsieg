@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = RKS
+		add_core_of = RKS
 		buildings = {
 			infrastructure = 3
 			air_base = 1

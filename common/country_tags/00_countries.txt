@@ -3,6 +3,12 @@ GER	= "countries/western_european.txt" # Grossdeutsches Reich
 RKO	= "countries/western_european.txt" # Reichskommissariat Ostland
 GGN	= "countries/western_european.txt" # Generalgouvernement
 RKU	= "countries/western_european.txt" # Reichskommissariat Ukraine
+RKM	= "countries/western_european.txt" # Reichskommissariat Moskowien
+RKD	= "countries/western_european.txt" # Reichskommissariat Don-Wolga
+RKK	= "countries/western_european.txt" # Reichskommissariat Kaukasus
+URL	= "countries/western_european.txt" # Militärverwaltung Ural
+RKI	= "countries/western_european.txt" # Reichskommissariat Norditalien
+RKS	= "countries/western_european.txt" # Reichskommissariat Skandinavien
 
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"

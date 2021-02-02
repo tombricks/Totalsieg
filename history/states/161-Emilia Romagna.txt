@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = RKI
+		add_core_of = RKI
 		victory_points = {
 			6606 3 
 		}
@@ -26,7 +27,7 @@ state={
 	}
 
 	provinces={
-		782 3773 3976 6606 6790 6793 6985 9752 9924 13251 13252 
+		782 1616 3773 3976 6606 6790 6793 6973 6985 9752 9924 11889 13251 13252 
 	}
 	manpower=3202401
 	buildings_max_level_factor=1.000
