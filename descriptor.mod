@@ -2,5 +2,6 @@ version="1.10.3"
 tags={
 	"Alternative History"
 }
-name="Men In The Castle"
+name="Totalsieg"
 supported_version="1.10.3"
+replace_path="common/autonomous_states"

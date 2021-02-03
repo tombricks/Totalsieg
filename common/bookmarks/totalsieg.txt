@@ -1,0 +1,36 @@
+bookmarks = {
+	bookmark = {
+		name = "TOTALSIEG_NAME"
+		desc = "TOTALSIEG_DESC"
+		date = 1967.5.3.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+
+		GER = {
+			history = GER_TOTALSIEG_DESC
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		JAP = {
+			history = JAP_TOTALSIEG_DESC
+			ideology = fascism
+			ideas={
+			}	
+			focuses = {
+			}		
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
