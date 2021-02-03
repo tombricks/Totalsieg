@@ -204,14 +204,15 @@ if = {
 	set_autonomy = { target = URL autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = DEN autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = CZE autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = SER autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = ITA autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = SLO autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = HUN autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = BUL autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = ROM autonomy_state = autonomy_GER_Satellite }
-	set_autonomy = { target = GRE autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = ALB autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = GRE autonomy_state = autonomy_GER_Satellite }
+	set_autonomy = { target = CRO autonomy_state = autonomy_GER_Satellite }
 	else = {
 		puppet = FRA
 		puppet = RKI
@@ -229,6 +230,7 @@ if = {
 		puppet = URL
 		puppet = DEN
 		puppet = CZE
+		puppet = SER
 		add_to_faction = ITA
 		add_to_faction = SLO
 		add_to_faction = HUN
@@ -236,7 +238,7 @@ if = {
 		add_to_faction = ROM
 		add_to_faction = GRE
 		add_to_faction = ALB
-		add_to_faction = GRE
+		add_to_faction = CRO
 	}
 }
 
