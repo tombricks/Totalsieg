@@ -188,6 +188,12 @@ add_to_faction = ENG
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
+	set_autonomy = { target = GLC autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = POR autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = SPR autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = ADU autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = CAT autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = NAV autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = FRA autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKI autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKS autonomy_state = autonomy_GER_Reichskommissariat }
@@ -214,6 +220,12 @@ if = {
 	set_autonomy = { target = GRE autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = CRO autonomy_state = autonomy_GER_Satellite }
 	else = {
+		puppet = GLC
+		puppet = POR
+		puppet = SPR
+		puppet = ADU
+		puppet = CAT
+		puppet = NAV
 		puppet = FRA
 		puppet = RKI
 		puppet = RKS
