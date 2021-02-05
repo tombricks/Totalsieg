@@ -185,6 +185,7 @@ create_faction = GER_reich_faction
 add_to_faction = GER
 add_to_faction = IRE
 add_to_faction = ENG
+add_to_faction = SAF
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
@@ -197,7 +198,7 @@ if = {
 	set_autonomy = { target = FRA autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKI autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKS autonomy_state = autonomy_GER_Reichskommissariat }
-	set_autonomy = { target = FIN autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = FIN autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = RKO autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKU autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKM autonomy_state = autonomy_GER_Reichskommissariat }
@@ -207,10 +208,14 @@ if = {
 	set_autonomy = { target = USA autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = HOL autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = BEL autonomy_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = MOR autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = URL autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = DEN autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = CZE autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = SER autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = COG autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = MAD autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = PAL autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = ITA autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = SLO autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = HUN autonomy_state = autonomy_GER_Satellite }
@@ -229,7 +234,6 @@ if = {
 		puppet = FRA
 		puppet = RKI
 		puppet = RKS
-		puppet = FIN
 		puppet = RKO
 		puppet = RKU
 		puppet = RKM
@@ -243,6 +247,10 @@ if = {
 		puppet = DEN
 		puppet = CZE
 		puppet = SER
+		puppet = MOR
+		puppet = COG
+		puppet = MAD
+		puppet = PAL
 		add_to_faction = ITA
 		add_to_faction = SLO
 		add_to_faction = HUN
@@ -251,6 +259,7 @@ if = {
 		add_to_faction = GRE
 		add_to_faction = ALB
 		add_to_faction = CRO
+		add_to_faction = FIN
 	}
 }
 

@@ -790,7 +790,7 @@ R10 = {
 	color = rgb { 68 25 117 }
 	color_ui = rgb { 68 25 117 }
 }
-Berezovo = {
+SI1 = {
 	color = rgb { 147 141 154 }
 	color_ui = rgb { 147 141 154 }
 }

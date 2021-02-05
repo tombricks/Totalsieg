@@ -23,8 +23,8 @@ RU7 = "countries/Norilsk.txt"
 RU8 = "countries/Norilsk.txt"
 RU9 = "countries/Norilsk.txt"
 R10 = "countries/Norilsk.txt"
-Berezovo = "countries/Norilsk.txt"
-RV1 = "countries/Anarchy.txt"
+SI1 = "countries/Norilsk.txt"
+ZZZ = "countries/Anarchy.txt"
 
 # China
 CH1 = "countries/Jiuquan Clqiue.txt"
