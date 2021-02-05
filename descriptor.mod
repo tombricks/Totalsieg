@@ -1,7 +1,6 @@
-version="1.10.3"
+version="1.10.4"
 tags={
 	"Alternative History"
 }
-name="Totalsieg"
-supported_version="1.10.3"
-replace_path="common/autonomous_states"
+name="Totalsieg: Total Victory"
+supported_version="1.10.4"
