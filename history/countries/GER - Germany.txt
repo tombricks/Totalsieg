@@ -164,22 +164,36 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	neutrality = 15
-	fascism = 80
+	national_socialism = 60
+	fascism = 20
 	communism = 5
 }
 add_ideas = {
+	GER_SL_Hermann_Goering
+	GER_FM_Joachim_von_Ribbentrop
+	GER_SM_Heinrich_Himmler
+	GER_EM_Albert_Speer
+	GER_M1_Joseph_Goebbels
+	GER_M2_Alfred_Rosenberg
+
 	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
+
+set_variable = { Goebbels_Influence = 20 } # Goebbels is just generally influential
+set_variable = { Bormann_Influence = 20 } # Boringman has a say in much of what Hitler hears 
+set_variable = { Goering_Influence = 20 } # Goering is the main designated successor but that was a long time ago
+set_variable = { Himmler_Influence = 10 } # Himmler is popular but not to be the successor
+set_variable = { Speer_Influence = 15 } # he just wants lego init
 
 create_faction = GER_reich_faction
 add_to_faction = GER
@@ -266,12 +280,20 @@ if = {
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
 	ideology = nazism
 	traits = {
 	}
 }
+create_country_leader = {
+	name = "Adolf Hitler"
+	desc = "POLITICS_ADOLF_HITLER_DESC"
+	picture = "Adolf_Hitler.tga"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}}
 
 create_country_leader = {
 	name = "Willy Brandt"

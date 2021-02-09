@@ -41,7 +41,8 @@ autonomy_state = {
 	allowed = {
 		OVERLORD = {
 			tag = GER
-		
+		}
+	}
 
 	can_take_level = {
 		always = no

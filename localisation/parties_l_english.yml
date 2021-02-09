@@ -1,13 +1,28 @@
 ﻿l_english:
- communism:0 "Communist"
- communism_noun:0 "Communism"
+ communism:0 "Authoritarian Socialist"
+ communism_noun:0 "Authoritarian Socialism"
+ communism_desc:0 "Authoritarian Regime"
+ 
+ libertarian_socialism:0 "Libertarian Socialist"
+ libertarian_socialism_noun:0 "Libertarian Socialism"
+ libertarian_socialism_desc:0 "Libertarian Soceity"
+
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
+
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Totalitarian Regime"
- communism_desc:0 "Totalitarian Regime"
- democratic_desc:0 "Democratic Regime"
+
+ national_socialism:0 "National Socialist"
+ national_socialism_noun:0 "National Socialism"
+ national_socialism_desc:0 "Totalitarian Regime"
+
+ neutrality:0 "Authoritarian"
+ neutrality_noun:0 "Authoritarianism"
+ neutrality_desc:0 "Authoritarian Regime"
+
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
@@ -34,9 +49,6 @@
  falangism_desc:0 "An authoritarian ideology with traits of fascism and conservatism, Falangism values national and Catholic identity."
  rexism:0 "Rexism"
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
- neutrality:0 "Non-Aligned"
- neutrality_noun:0 "Non-Aligned"
- neutrality_desc:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  oligarchism:0 "Oligarchic"
