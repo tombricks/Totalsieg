@@ -283,8 +283,7 @@ create_country_leader = {
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
 	ideology = nazism
-	traits = {
-	}
+	traits = { TITLE_Fuhrer }
 }
 create_country_leader = {
 	name = "Adolf Hitler"
@@ -292,8 +291,8 @@ create_country_leader = {
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
-	traits = {
-	}}
+	traits = { TITLE_Fuhrer }
+}
 
 create_country_leader = {
 	name = "Willy Brandt"

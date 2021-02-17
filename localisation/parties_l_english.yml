@@ -60,6 +60,9 @@
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  
+ TITLE_Fuhrer:0 "Führer"
+ TITLE_Leader:0 "Leader"
+ 
  BUL_fascism_party:0 "UBNL"
  BUL_fascism_party_long:0 "Sayuz na Balgarskite Natsionalni Legioni"
  CRO_fascism_party:0 "Ustaše"

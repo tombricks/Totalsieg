@@ -1,0 +1,18 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "politics_scripted_gui_window"
+		position = { x=0 y=0}	
+
+		instantTextboxType = {
+			name = "leader_title"
+			position = { x = 18 y = 262 }
+			font = "hoi_16mbs"
+			text = "[This.GetLeaderTitle]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}	
+	}
+}

@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	politics_scripted_gui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "politics_scripted_gui_window"
+
+		properties = {
+		}
+	}
+	
+}
+
