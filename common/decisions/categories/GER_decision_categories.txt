@@ -1,0 +1,20 @@
+#################
+#### GERMANY ####
+#################
+
+GER_Succession_Category = {
+	icon = generic_political_actions
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		NOT = {
+			has_global_flag = Hitler_is_Dead
+		}
+	}
+
+	visible_when_empty = yes
+	priority = 10000
+}

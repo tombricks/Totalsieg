@@ -310,3 +310,6 @@
  GER_Joseph_Goebbels_unavailable:0 "Joseph Goebbels is unavailable"
  GER_M2_Alfred_Rosenberg:0 "Alfred Rosenberg"
  GER_Albert_Speer_unavailable:0 "Alfred Rosenberg is unavailable"
+
+ GER_Succession_Category:0 "Nachfolge"
+ GER_Succession_Category_desc:0 "Führer des Groẞgermanischen Reiches Adolf Hitler has been the leader of Germany since the death of former Reichspräsident Paul von Hindenburg, but this leadership may very well be coming to an end. He has been on his death bed for months and he is in no fit state to make decisions. With this, various high ranking officials of the German government have began to make moves to achieve victory in the emerging power struggle.\n\n§OThe Architect, Albert Speer: §![?Speer_Influence]\ns\n\n§YThe Propagandist, Joseph Goebbels: §![?Goebbels_Influence]\ns\n\n§CThe Militarist, Hermann Göring: §![?Goering_Influence]\ns\n\n§RThe Secretary, Martin Bormann: §![?Bormann_Influence]\ns\n\n§LThe Terror, Heinrich Himmler: §![?Himmler_Influence]\ns"

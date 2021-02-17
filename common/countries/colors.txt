@@ -794,7 +794,7 @@ SI1 = {
 	color = rgb { 147 141 154 }
 	color_ui = rgb { 147 141 154 }
 }
-RV1 = {
+ZZZ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
