@@ -279,7 +279,7 @@ if = {
 
 create_country_leader = {
 	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
+	desc = ""
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
 	ideology = nazism
@@ -287,7 +287,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
+	desc = ""
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
@@ -296,7 +296,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Willy Brandt"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	desc = ""
 	picture = "Portrait_Germany_Willy_Brandt.dds"
 	expire = "1999.1.1"
 	ideology = socialism
@@ -307,7 +307,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Wilhelm Keitel"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
+	desc = ""
 	picture = "Portrait_Germany_Wilhelm_Keitel.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -317,7 +317,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Walter Ulbricht"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
+	desc = ""
 	picture = "Portrait_Germany_Walter_Ulbricht.dds"
 	expire = "1965.1.1"
 	ideology = leninism

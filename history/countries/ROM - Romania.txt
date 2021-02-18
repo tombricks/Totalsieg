@@ -82,13 +82,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 60
+	national_socialism = 60
 	democratic = 18
 	communism = 2
 	neutrality = 20
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "2000.1.1"
-	ideology = fascism_ideology
+	ideology = nazism
 	traits = {}
 }
 

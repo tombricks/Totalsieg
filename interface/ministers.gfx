@@ -1,0 +1,22 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_GER_SL_Hermann_Goering"
+		texturefile = "gfx/interface/ideas/ministers/Hermann_Goering.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_FM_Joachim_von_Ribbentrop"
+		texturefile = "gfx/interface/ideas/ministers/Joachim_von_Ribbentrop.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_EM_Albert_Speer"
+		texturefile = "gfx/interface/ideas/ministers/Albert_Speer.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_M1_Joseph_Goebbels"
+		texturefile = "gfx/interface/ideas/ministers/Joseph_Goebbels.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_M2_Alfred_Rosenberg"
+		texturefile = "gfx/interface/ideas/ministers/Alfred_Rosenberg.tga"
+	}
+}
