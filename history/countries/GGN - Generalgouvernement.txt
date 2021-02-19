@@ -59,10 +59,27 @@ if = {
 }
 
 set_popularities = {
-	fascism = 100
+	national_socialism = 100
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hans Frank"
+	desc = ""
+	picture = "Hans_Frank.tga"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = { TITLE_Governor_General }
+}
+create_country_leader = {
+	name = "Hans Frank"
+	desc = ""
+	picture = "Hans_Frank.tga"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = { TITLE_Governor_General }
 }

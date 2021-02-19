@@ -3,6 +3,8 @@ leader_traits = {
 	TITLE_Fuhrer = { random = no }
 	TITLE_Leader = { random = no }
 	TITLE_Reichskommissar = { random = no }
+	TITLE_Governor_General = { random = no }
+	TITLE_Uralverteidigungskommandant = { random = no ai_focus_defense_factor = 0.5 }
 	
 	dictator = {
 		random = no

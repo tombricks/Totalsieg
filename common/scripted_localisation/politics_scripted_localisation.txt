@@ -3,5 +3,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Leader } localization_key = TITLE_Leader }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichskommissar } localization_key = TITLE_Reichskommissar }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Governor_General } localization_key = TITLE_Governor_General }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Uralverteidigungskommandant } localization_key = TITLE_Uralverteidigungskommandant }
 	text = { localization_key = TITLE_Leader }
 }

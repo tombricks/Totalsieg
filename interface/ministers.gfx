@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/Joachim_von_Ribbentrop.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_GER_SM_Heinrich_Himmler"
+		texturefile = "gfx/interface/ideas/ministers/Heinrich_Himmler.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_GER_EM_Albert_Speer"
 		texturefile = "gfx/interface/ideas/ministers/Albert_Speer.tga"
 	}
