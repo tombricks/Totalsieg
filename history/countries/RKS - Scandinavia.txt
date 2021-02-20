@@ -59,10 +59,29 @@ if = {
 }
 
 set_popularities = {
-	fascism = 100
+	national_socialism = 43
+	fascism = 34
+	neutrality = 23
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Josef Terboven"
+	desc = ""
+	picture = "Josef_Terboven.tga"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = { TITLE_Reichskommissar }
+}
+create_country_leader = {
+	name = "Josef Terboven"
+	desc = ""
+	picture = "Josef_Terboven.tga"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = { TITLE_Reichskommissar }
 }

@@ -91,6 +91,17 @@
  RKO_national_socialism_party:0 "AOdNSDAP"
  RKO_national_socialism_party_party:0 "Arbeitsbereich Ostland der Nationalsozialistische Deutsche Arbeiterpartei"
 
+ TUN_GER_autonomy_GER_Protektorat:0 "Großatlantropisches Reich"
+ TUN_GER_autonomy_GER_Protektorat_DEF:0 "the Großatlantropisches Reich"
+ TUN_GER_autonomy_GER_Protektorat_ADJ:0 "Atlantropian"
+ TUN_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Atlantropa"
+ TUN_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Atlantropa"
+ TUN_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Atlantropian"
+ TUN_fascism_party:0 "AAdNSDAP"
+ TUN_fascism_party_party:0 "Arbeitsbereich Atlantropa der Nationalsozialistische Deutsche Arbeiterpartei"
+ TUN_national_socialism_party:0 "AAdNSDAP"
+ TUN_national_socialism_party_party:0 "Arbeitsbereich Atlantropa der Nationalsozialistische Deutsche Arbeiterpartei"
+
  RKU_GER_autonomy_GER_Protektorat:0 "Ukrainian State"
  RKU_GER_autonomy_GER_Protektorat_DEF:0 "the Ukrainian State"
  RKU_GER_autonomy_GER_Protektorat_ADJ:0 "Ukrainian"
@@ -164,8 +175,8 @@
  RKS_national_socialism_party:0 "ASdNSDAP"
  RKS_national_socialism_party_party:0 "Arbeitsbereich Skandinavien der Nationalsozialistische Deutsche Arbeiterpartei"
 
- DEN_GER_autonomy_GER_Protektorat:0 "Protektorat Dänemark"
- DEN_GER_autonomy_GER_Protektorat_DEF:0 "the Protektorat Dänemark"
+ DEN_GER_autonomy_GER_Protektorat:0 "Königreich Dänemark"
+ DEN_GER_autonomy_GER_Protektorat_DEF:0 "the Königreich Dänemark"
  DEN_GER_autonomy_GER_Protektorat_ADJ:0 "Dänisch"
  DEN_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Dänemark"
  DEN_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Dänemark"

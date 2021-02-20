@@ -1,6 +1,6 @@
 ﻿capital = 165
-
-#oob = ""
+oob = "RKI_1967"
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -9,86 +9,79 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
+	tech_military_police = 1
 	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
 	gw_artillery = 1
-	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
+	fighter1 = 1
 	early_bomber = 1
+	strategic_bomber1 = 1
 	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
 }
 
-set_convoys = 20
-
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
 	set_technology = {
-
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
 	}
 }
-set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
 }
+
 set_popularities = {
-	democratic = 50
-	fascism = 3
-	communism = 47
+	national_socialism = 43
+	fascism = 34
+	neutrality = 23
+}
+
+set_politics = {
+	ruling_party = national_socialism
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Andreu Nin i Pérez"
-	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	name = "Helmut Goebbels"
+	desc = ""
+	picture = "Helmut_Goebbels.tga"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = { TITLE_Reichskommissar }
 }
-
 create_country_leader = {
-	name = "Lluís Companys i Jover"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Daniel Cardona i Civit"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
-	expire = "1965.1.1"
+	name = "Helmut Goebbels"
+	desc = ""
+	picture = "Helmut_Goebbels.tga"
+	expire = "1999.1.1"
 	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Francesc Cambó i Batlle"
-	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
-	expire = "1965.1.1"
-	ideology = centrism
+	traits = { TITLE_Reichskommissar }
 }

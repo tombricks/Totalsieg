@@ -1,5 +1,5 @@
 ﻿capital = 160
-oob = "RKI_1936"
+oob = "RKI_1967"
 set_research_slots = 3
 
 # Starting tech
@@ -59,10 +59,29 @@ if = {
 }
 
 set_popularities = {
-	fascism = 100
+	national_socialism = 43
+	fascism = 34
+	neutrality = 23
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Karl Wolff"
+	desc = ""
+	picture = "Karl_Wolff.tga"
+	expire = "1999.1.1"
+	ideology = nazism
+	traits = { TITLE_Reichskommissar }
+}
+create_country_leader = {
+	name = "Karl Wolff"
+	desc = ""
+	picture = "Karl_Wolff.tga"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = { TITLE_Reichskommissar }
 }
