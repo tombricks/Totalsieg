@@ -157,13 +157,6 @@
  RKK_national_socialism_party:0 "AMdNSDAP"
  RKK_national_socialism_party_party:0 "Arbeitsbereich Kaukasus der Nationalsozialistische Deutsche Arbeiterpartei"
 
- FIN_GER_autonomy_GER_Protektorat:0 "Finnish State"
- FIN_GER_autonomy_GER_Protektorat_DEF:0 "the Finnish State"
- FIN_GER_autonomy_GER_Protektorat_ADJ:0 "Finnish"
- FIN_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Finnland"
- FIN_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Finnland"
- FIN_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Finnland"
-
  RKS_GER_autonomy_GER_Protektorat:0 "Großskandinavien"
  RKS_GER_autonomy_GER_Protektorat_DEF:0 "Großskandinavien"
  RKS_GER_autonomy_GER_Protektorat_ADJ:0 "Großskandinavien"
@@ -225,13 +218,6 @@
  RKI_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Norditalien"
  RKI_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Norditalienisch"
 
- SER_GER_autonomy_GER_Protektorat:0 "Kingdom of Serbia"
- SER_GER_autonomy_GER_Protektorat_DEF:0 "the Kingdom of Serbia"
- SER_GER_autonomy_GER_Protektorat_ADJ:0 "Serbian"
- SER_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Serbien"
- SER_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Serbien"
- SER_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Serbisch"
-
  USA_GER_autonomy_GER_Protektorat:0 "Großamerikanisches Reich"
  USA_GER_autonomy_GER_Protektorat_DEF:0 "the Großamerikanisches Reich"
  USA_GER_autonomy_GER_Protektorat_ADJ:0 "Amerikanisch"
@@ -257,26 +243,12 @@
  CAT_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Katalonien"
  CAT_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Katalanisch"
 
- NAV_GER_autonomy_GER_Protektorat:0 "Basque State"
- NAV_GER_autonomy_GER_Protektorat_DEF:0 "the Basque State"
- NAV_GER_autonomy_GER_Protektorat_ADJ:0 "Basque"
- NAV_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Baskenland"
- NAV_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Baskenland"
- NAV_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Baskisch"
-
  ADU_GER_autonomy_GER_Protektorat:0 "Andalusian State"
  ADU_GER_autonomy_GER_Protektorat_DEF:0 "the Andalusian State"
  ADU_GER_autonomy_GER_Protektorat_ADJ:0 "Andalusian"
  ADU_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Andalusien"
  ADU_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Andalusien"
  ADU_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Andalusier"
-
- GLC_GER_autonomy_GER_Protektorat:0 "Galician State"
- GLC_GER_autonomy_GER_Protektorat_DEF:0 "the Galician State"
- GLC_GER_autonomy_GER_Protektorat_ADJ:0 "Galician"
- GLC_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Galicien"
- GLC_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Galicien"
- GLC_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Galizisch"
 
  POR_GER_autonomy_GER_Protektorat:0 "Portuguese State"
  POR_GER_autonomy_GER_Protektorat_DEF:0 "the Portuguese State"

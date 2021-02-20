@@ -6,7 +6,6 @@ autonomy_state = {
 	min_freedom_level = 0.7
 	
 	manpower_influence = 0.7
-	use_overlord_color = yes
 	
 	rule = {
 		can_not_declare_war = yes
