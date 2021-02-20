@@ -238,6 +238,10 @@
  USA_GER_autonomy_GER_Reichskommissariat:0 "Reichskommissariat Amerika"
  USA_GER_autonomy_GER_Reichskommissariat_DEF:0 "the Reichskommissariat Amerika"
  USA_GER_autonomy_GER_Reichskommissariat_ADJ:0 "Amerikanisch"
+ USA_fascism_party:0 "AVBdNSDAP"
+ USA_fascism_party_long:0 "Amerikanisches Verwaltungsbüro der Nationalsozialistischen Deutschen Arbeiterpartei"
+ USA_national_socialism_party:0 "AVBdNSDAP"
+ USA_national_socialism_party_long:0 "Amerikanisches Verwaltungsbüro der Nationalsozialistischen Deutschen Arbeiterpartei"
 
  SPR_GER_autonomy_GER_Protektorat:0 "Castilian State"
  SPR_GER_autonomy_GER_Protektorat_DEF:0 "the Castilian State"
