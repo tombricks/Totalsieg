@@ -1,14 +1,7 @@
 spriteTypes = {
 	
-	spriteType = {
-		name = "GFX_ideology_GER_fascism_group"
-		texturefile = "gfx/interface/ideologies/nsdap.tga"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_GER_national_socialism_group"
-		texturefile = "gfx/interface/ideologies/nsdap.tga"
-	}
+	spriteType = { name = "GFX_ideology_f_party_NSDAP" texturefile = "gfx/interface/ideologies/party_nsdap.tga" }
+	spriteType = { name = "GFX_ideology_ns_party_NSDAP" texturefile = "gfx/interface/ideologies/party_nsdap.tga" }
 	
 	#Government in Exile
 

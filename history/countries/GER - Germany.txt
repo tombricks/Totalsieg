@@ -325,7 +325,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
-	ideology = nazism
+	ideology = ns_party_NSDAP
 	traits = { TITLE_Fuhrer }
 }
 create_country_leader = {
@@ -333,7 +333,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Adolf_Hitler.tga"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = f_party_NSDAP
 	traits = { TITLE_Fuhrer }
 }
 

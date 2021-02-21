@@ -179,6 +179,7 @@ ideologies = {
 	fascism = {
 	
 		types = {
+			f_party_NSDAP = { can_be_selected_randomly = no }
 			
 			fascism_ideology = {
 			}
@@ -231,6 +232,7 @@ ideologies = {
 	national_socialism = {
 	
 		types = {
+			ns_party_NSDAP = { can_be_selected_randomly = no }
 		
 			nazism = {
 			}

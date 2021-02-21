@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Karl_Hanke.tga"
 	expire = "1999.1.1"
-	ideology = nazism
+	ideology = ns_party_NSDAP
 	traits = { TITLE_Reichskommissar }
 }
 create_country_leader = {
@@ -82,6 +82,6 @@ create_country_leader = {
 	desc = ""
 	picture = "Karl_Hanke.tga"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = f_party_NSDAP
 	traits = { TITLE_Reichskommissar }
 }

@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Hans_Frank.tga"
 	expire = "1999.1.1"
-	ideology = nazism
+	ideology = ns_party_NSDAP
 	traits = { TITLE_Governor_General }
 }
 create_country_leader = {
@@ -80,6 +80,6 @@ create_country_leader = {
 	desc = ""
 	picture = "Hans_Frank.tga"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = f_party_NSDAP
 	traits = { TITLE_Governor_General }
 }
