@@ -12,7 +12,8 @@ state={
 
 
 	history={
-		owner = ZZZ
+		owner = COW
+		add_core_of = COW
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 5

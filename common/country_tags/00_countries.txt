@@ -1,3 +1,6 @@
+COW	= "countries/western_european.txt" # Cult of Washington 
+PSA	= "countries/western_european.txt" # Pacific States of America
+
 # GrEaTeR nAzI eMpIrE
 GER	= "countries/western_european.txt" # Grossdeutsches Reich
 RKO	= "countries/western_european.txt" # Reichskommissariat Ostland

@@ -3231,3 +3231,6 @@ CH2:0 "Qinghai Clique"
 CH2_DEF:0 "Qinghai Clique"
 CH2_ADJ:0 "Citizen of Qinghai Clique"
 
+ COW:0 "Cult of Washington"
+ COW_DEF:0 "the Cult of Washington"
+ COW_ADJ:0 "Washingtonian"

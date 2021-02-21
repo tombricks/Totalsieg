@@ -1,0 +1,39 @@
+scripted_gui = {
+
+	economic_sphere_list = {
+		context_type = player_context
+		window_name = "GER_Reich_window"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = GER_Reich_Window_Open
+		}
+
+		dynamic_lists = {
+			GER_Reich_Reichskommissariats_grid = {
+				array = GER.GER_Reich_Reichskommissariats
+				change_scope = yes
+
+				entry_container = GER_Reich_member_entry
+			}
+			GER_Reich_Protektorats_grid = {
+				array = GER.GER_Reich_Protektorats
+				change_scope = yes
+
+				entry_container = GER_Reich_member_entry
+			}
+		}
+
+		triggers = {
+		}
+
+		effects = {
+		}
+
+		properties = {
+		}
+	}
+}

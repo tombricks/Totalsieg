@@ -201,6 +201,7 @@ add_to_faction = IRE
 add_to_faction = ENG
 add_to_faction = SAF
 
+
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	set_autonomy = { target = GLC autonomy_state = autonomy_GER_Reichskommissariat }
@@ -212,7 +213,6 @@ if = {
 	set_autonomy = { target = FRA autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKI autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKS autonomy_state = autonomy_GER_Reichskommissariat }
-	set_autonomy = { target = FIN autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = RKO autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKU autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKM autonomy_state = autonomy_GER_Reichskommissariat }
@@ -230,6 +230,7 @@ if = {
 	set_autonomy = { target = COG autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = MAD autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = PAL autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = FIN autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = SER autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = ITA autonomy_state = autonomy_GER_Satellite }
 	set_autonomy = { target = SLO autonomy_state = autonomy_GER_Satellite }
@@ -278,6 +279,46 @@ if = {
 		add_to_faction = FIN
 	}
 }
+
+add_to_array = { GER_Reich_Reichskommissariats = GLC }
+add_to_array = { GER_Reich_Reichskommissariats = POR }
+add_to_array = { GER_Reich_Reichskommissariats = SPR }
+add_to_array = { GER_Reich_Reichskommissariats = ADU }
+add_to_array = { GER_Reich_Reichskommissariats = CAT }
+add_to_array = { GER_Reich_Reichskommissariats = NAV }
+add_to_array = { GER_Reich_Reichskommissariats = FRA }
+add_to_array = { GER_Reich_Reichskommissariats = RKI }
+add_to_array = { GER_Reich_Reichskommissariats = RKS }
+add_to_array = { GER_Reich_Reichskommissariats = RKO }
+add_to_array = { GER_Reich_Reichskommissariats = RKU }
+add_to_array = { GER_Reich_Reichskommissariats = RKM }
+add_to_array = { GER_Reich_Reichskommissariats = RKD }
+add_to_array = { GER_Reich_Reichskommissariats = RKK }
+add_to_array = { GER_Reich_Reichskommissariats = GGN }
+add_to_array = { GER_Reich_Reichskommissariats = USA }
+add_to_array = { GER_Reich_Reichskommissariats = HOL }
+add_to_array = { GER_Reich_Reichskommissariats = BEL }
+add_to_array = { GER_Reich_Reichskommissariats = MOR }
+add_to_array = { GER_Reich_Reichskommissariats = TUN }
+add_to_array = { GER_Reich_Protektorats = URL }
+add_to_array = { GER_Reich_Protektorats = DEN }
+add_to_array = { GER_Reich_Protektorats = CZE }
+add_to_array = { GER_Reich_Protektorats = COG }
+add_to_array = { GER_Reich_Protektorats = MAD }
+add_to_array = { GER_Reich_Protektorats = PAL }
+add_to_array = { GER_Reich_Satellites = FIN }
+add_to_array = { GER_Reich_Satellites = SER }
+add_to_array = { GER_Reich_Satellites = ITA }
+add_to_array = { GER_Reich_Satellites = SLO }
+add_to_array = { GER_Reich_Satellites = HUN }
+add_to_array = { GER_Reich_Satellites = BUL }
+add_to_array = { GER_Reich_Satellites = ROM }
+add_to_array = { GER_Reich_Satellites = ALB }
+add_to_array = { GER_Reich_Satellites = GRE }
+add_to_array = { GER_Reich_Satellites = CRO }
+add_to_array = { GER_Reich_Allies = ENG }
+add_to_array = { GER_Reich_Allies = IRE }
+add_to_array = { GER_Reich_Allies = SAF }
 
 create_country_leader = {
 	name = "Adolf Hitler"

@@ -4,6 +4,10 @@ GER = {
 	color = rgb { 75 75 75 }
 	color_ui = rgb { 75 75 75 }
 }
+COW = {
+	color = rgb { 28 58 115 }
+	color_ui = rgb { 28 58 115 }
+}
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
@@ -257,8 +261,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 133 133 133 }
+	color_ui = rgb { 133 133 133 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
