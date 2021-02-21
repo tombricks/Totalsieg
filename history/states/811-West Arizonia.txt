@@ -1,0 +1,16 @@
+state={
+	id=811
+	name="STATE_811"
+	state_category = rural
+	provinces={
+		853 1793 8115 10783 11814 12833 
+	}
+	history = {
+		owner = JAP
+		victory_points = {
+			853 3 
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
