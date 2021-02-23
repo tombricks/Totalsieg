@@ -179,7 +179,9 @@ ideologies = {
 	fascism = {
 	
 		types = {
-			f_party_NSDAP = { can_be_selected_randomly = no }
+			f_party_NSDAP = { can_be_randomly_selected  = no }
+			f_party_NSDAP_palestine = { can_be_randomly_selected  = no }
+			f_party_NSDAP_america = { can_be_randomly_selected  = no }
 			
 			fascism_ideology = {
 			}
@@ -232,7 +234,9 @@ ideologies = {
 	national_socialism = {
 	
 		types = {
-			ns_party_NSDAP = { can_be_selected_randomly = no }
+			ns_party_NSDAP = { can_be_randomly_selected  = no }
+			ns_party_NSDAP_palestine = { can_be_randomly_selected  = no }
+			ns_party_NSDAP_america = { can_be_randomly_selected  = no }
 		
 			nazism = {
 			}

@@ -5,5 +5,8 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichskommissar } localization_key = TITLE_Reichskommissar }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Governor_General } localization_key = TITLE_Governor_General }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Uralverteidigungskommandant } localization_key = TITLE_Uralverteidigungskommandant }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsgouverneur } localization_key = TITLE_Reichsgouverneur }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Protector } localization_key = TITLE_Protector }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsbevollmaechtigter } localization_key = TITLE_Reichsbevollmaechtigter }
 	text = { localization_key = TITLE_Leader }
 }

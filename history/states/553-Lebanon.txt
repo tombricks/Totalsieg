@@ -2,12 +2,10 @@
 state={
 	id=553
 	name="STATE_553"
-	manpower = 1104000
-	
-	state_category = town
 
 	history={
-		owner = LEB
+		owner = PAL
+		add_core_of = PAL
 		victory_points = {
 			792 5 
 		}
@@ -17,13 +15,18 @@ state={
 			air_base = 5
 			792 = {
 				naval_base = 3
-			}
-		}
 
+			}
+
+		}
 		add_core_of = LEB
+
 	}
 
 	provinces={
-		792 1108 11919 
+		792 1108 11919 13321 13324 13333 13335 13336 
 	}
+	manpower=1104000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

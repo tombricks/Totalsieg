@@ -65,12 +65,25 @@
  f_party_NSDAP:0 "National Socialism"
  f_party_NSDAP_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  
+ ns_party_NSDAP_palestine:0 "National Socialism"
+ ns_party_NSDAP_palestine_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ f_party_NSDAP_palestine:0 "National Socialism"
+ f_party_NSDAP_palestine_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ 
+ ns_party_NSDAP_america:0 "National Socialism"
+ ns_party_NSDAP_america_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ f_party_NSDAP_america:0 "National Socialism"
+ f_party_NSDAP_america_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ 
  TITLE_Fuhrer:0 "Führer"
  TITLE_Leader:0 "Leader"
  TITLE_Reichskommissar:0 "Reichskommissar"
  TITLE_Governor_General:0 "Governor-General"
  TITLE_Uralverteidigungskommandant:0 "Uralverteidigungskommandant"
- 
+ TITLE_Reichsgouverneur:0 "Reichsgouverneur"
+ TITLE_Protector:0 "Protector"
+ TITLE_Reichsbevollmaechtigter:0 "Reichsbevollmächtigter"
+
  BUL_fascism_party:0 "UBNL"
  BUL_fascism_party_long:0 "Sayuz na Balgarskite Natsionalni Legioni"
  CRO_fascism_party:0 "Ustaše"

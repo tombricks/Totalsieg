@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Ernst_Kaltenbrunner.tga"
 	expire = "1999.1.1"
-	ideology = ns_party_NSDAP
+	ideology = ns_party_NSDAP_america
 	traits = {
 		TITLE_Reichskommissar
 	}
@@ -163,7 +163,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Ernst_Kaltenbrunner.tga"
 	expire = "1999.1.1"
-	ideology = f_party_NSDAP
+	ideology = f_party_NSDAP_america
 	traits = {
 		TITLE_Reichskommissar
 	}

@@ -70,18 +70,18 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Werner Best"
 	desc = ""
-	picture = "Frits_Clausen.tga"
+	picture = "Werner_Best.tga"
 	expire = "1999.1.1"
 	ideology = nazism
-	traits = { TITLE_Reichskommissar }
+	traits = { TITLE_Reichsbevollmaechtigter  }
 }
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Werner Best"
 	desc = ""
-	picture = "Frits_Clausen.tga"
+	picture = "Werner_Best.tga"
 	expire = "1999.1.1"
 	ideology = fascism_ideology
-	traits = { TITLE_Reichskommissar }
+	traits = { TITLE_Reichsbevollmaechtigter  }
 }
