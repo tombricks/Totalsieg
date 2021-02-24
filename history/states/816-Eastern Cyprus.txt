@@ -1,0 +1,13 @@
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		13331 13338 13343 13357 13368 
+	}
+	history = {
+		owner = CYP
+		add_core_of = CYP
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

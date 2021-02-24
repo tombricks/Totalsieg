@@ -1,0 +1,13 @@
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		13290 13293 13301 13304 13307 13312 13313 13315 13318 13319 13320 13323 13325 13328 13329 13334 13337 
+	}
+	history = {
+		owner = TUN
+		add_core_of = TUN
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
