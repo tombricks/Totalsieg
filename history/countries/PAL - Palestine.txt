@@ -69,6 +69,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	PAL_SL_Amin_al_Husseini
+	GER_High_Collaboration
+}
+
 create_country_leader = {
 	name = "Joachim von Ribbentrop"
 	desc = ""
