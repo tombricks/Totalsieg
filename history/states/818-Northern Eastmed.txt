@@ -1,0 +1,12 @@
+state={
+	id=818
+	name="STATE_818"
+	provinces={
+		13326 13327 13330 13340 13341 13344 13345 13346 13347 13348 13351 
+	}
+	history = {
+		owner = ISR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

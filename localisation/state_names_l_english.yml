@@ -816,3 +816,6 @@
  STATE_815:0 "Reclaimed Sinai"
  STATE_816:0 "Eastern Cyprus"
  STATE_817:0 "Ostatlantropa"
+ STATE_818:0 "Northern Eastmed"
+ STATE_819:0 "Western Eastmed"
+ STATE_820:0 "Eastern Eastmed"

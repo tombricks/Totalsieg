@@ -1,0 +1,12 @@
+state={
+	id=820
+	name="STATE_820"
+	provinces={
+		13302 13305 
+	}
+	history = {
+		owner = ISR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

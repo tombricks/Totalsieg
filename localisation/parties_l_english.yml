@@ -60,21 +60,6 @@
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  
- ns_party_NSDAP:0 "National Socialism"
- ns_party_NSDAP_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- f_party_NSDAP:0 "National Socialism"
- f_party_NSDAP_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- 
- ns_party_NSDAP_palestine:0 "National Socialism"
- ns_party_NSDAP_palestine_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- f_party_NSDAP_palestine:0 "National Socialism"
- f_party_NSDAP_palestine_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- 
- ns_party_NSDAP_america:0 "National Socialism"
- ns_party_NSDAP_america_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- f_party_NSDAP_america:0 "National Socialism"
- f_party_NSDAP_america_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
- 
  TITLE_Fuhrer:0 "Führer"
  TITLE_Leader:0 "Leader"
  TITLE_Reichskommissar:0 "Reichskommissar"
