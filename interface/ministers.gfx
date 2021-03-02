@@ -23,4 +23,8 @@ spriteTypes = {
 		name = "GFX_idea_GER_M2_Alfred_Rosenberg"
 		texturefile = "gfx/interface/ideas/ministers/Alfred_Rosenberg.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_PAL_SL_Amin_al_Husseini"
+		texturefile = "gfx/interface/ideas/ministers/Amin_al_Husseini.tga"
+	}
 }

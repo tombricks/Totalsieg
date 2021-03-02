@@ -346,8 +346,8 @@ EGY = {
 }
 
 PAL = {
-	color = rgb { 170  125  80 }
-	color_ui = rgb { 170  125  80 }
+	color = rgb { 95 90 85 }
+	color_ui = rgb { 95 90 85 }
 }
 
 LEB = {
