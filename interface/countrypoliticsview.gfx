@@ -142,17 +142,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_reichskommissariat_icon"
+		name = "GFX_autonomy_GER_Reichskommissariat_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_reichsprotectorate_icon"
+		name = "GFX_autonomy_GER_Protektorat_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_autonomy_satellite_icon"
+		name = "GFX_autonomy_GER_Satellite_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
 	}
 	

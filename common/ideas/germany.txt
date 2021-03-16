@@ -31,6 +31,8 @@ ideas = {
 			rule = {
 				units_deployed_to_overlord  = no
 			}
+
+			picture = general_staff
 		}
 
 		sour_loser = {
