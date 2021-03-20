@@ -1,6 +1,6 @@
 scripted_gui = {
 
-	economic_sphere_list = {
+	GER_Reich_list = {
 		context_type = player_context
 		window_name = "GER_Reich_window"
 
