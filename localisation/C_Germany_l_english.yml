@@ -352,3 +352,5 @@
  
  GER_High_Collaboration:0 "High Collaboration"
  GER_High_Collaboration_desc:0 "While a German may be the official Head of [THIS.GetNameDef], local officials are able to manage much of the day to day activities due to the large pool of willing supporters of our National Socialist cause in the region."
+
+ GER_Satellite_tt:0 "Satellite of [GER.GetNameDef]"

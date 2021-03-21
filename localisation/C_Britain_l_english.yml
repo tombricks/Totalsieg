@@ -1,0 +1,40 @@
+﻿l_english:
+ ENG_fascism:0 "British Union"
+ ENG_fascism_DEF:0 "the British Union"
+ ENG_fascism_ADJ:0 "British"
+ ENG_fascism_party:0 "IFL"
+ ENG_fascism_party_long:0 "Imperial Fascist League"
+
+ ENG_national_socialism:0 "British State"
+ ENG_national_socialism_DEF:0 "the British State"
+ ENG_national_socialism_ADJ:0 "British"
+ ENG_national_socialism_party:0 "NSL"
+ ENG_national_socialism_party_long:0 "National Socialist League"
+
+ ENG_democratic:0 "United Kingdom"
+ ENG_democratic_DEF:0 "the United Kingdom"
+ ENG_democratic_ADJ:0 "British"
+ ENG_democratic_party:0 "NDF"
+ ENG_democratic_party_long:0 "National Democratic Front"
+
+ ENG_neutrality:0 "Kingdom of Great Britain"
+ ENG_neutrality_DEF:0 "the Kingdom of Great Britain"
+ ENG_neutrality_ADJ:0 "British"
+ ENG_neutrality_party:0 "Union"
+ ENG_neutrality_party_long:0 "British Union"
+
+ ENG_communism:0 "Democratic Republic of Britain"
+ ENG_communism_DEF:0 "the Democratic Republic of Britain"
+ ENG_communism_ADJ:0 "British"
+ ENG_communism_party:0 "MLUP"
+ ENG_communism_party_long:0 "Marxist-Leninist Unionist Party"
+
+ ENG_libertarian_socialism:0 "British Anarchist Society"
+ ENG_libertarian_socialism_DEF:0 "the British Anarchist Society"
+ ENG_libertarian_socialism_ADJ:0 "British"
+ ENG_libertarian_socialism_party:0 "Alliance"
+ ENG_libertarian_socialism_party_long:0 "Socialist Alliance"
+
+ ENG:0 "Britain"
+ ENG_DEF:0 "Britain"
+ ENG_ADJ:0 "British"

@@ -6,7 +6,7 @@ set_war_support = 0.7
 set_convoys = 200
 
 add_ideas = {
-	vittoria_mutilata
+	ITA_Rome_in_Flames
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

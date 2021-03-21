@@ -1,0 +1,36 @@
+﻿l_english:
+ ITA_fascism:0 "Italian Social Republic"
+ ITA_fascism_DEF:0 "the Italian Social Republic"
+ ITA_fascism_ADJ:0 "Italian"
+ ITA_fascism_party:0 "PNF-IR"
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista dell'Impero Romano"
+
+ ITA_national_socialism:0 "Roman Empire"
+ ITA_national_socialism_DEF:0 "the Lands Represented in the Grand Roman Senate of Fascism"
+ ITA_national_socialism_ADJ:0 "Italian"
+ ITA_national_socialism_party:0 "PNF-IR"
+ ITA_national_socialism_party_long:0 "Partito Nazionale Fascista dell'Impero Romano"
+
+ ITA_democratic:0 "Republic of Italy"
+ ITA_democratic_DEF:0 "Republic of Italy"
+ ITA_democratic_ADJ:0 "Italian"
+
+ ITA_neutrality:0 "Kingdom of Italy"
+ ITA_neutrality_DEF:0 "the Kingdom of Italy"
+ ITA_neutrality_ADJ:0 "Italian"
+
+ ITA_communism:0 "Italian Democratic Republic"
+ ITA_communism_DEF:0 "the Italian Democratic Republic"
+ ITA_communism_ADJ:0 "Italian"
+
+ ITA:0 "Italy"
+ ITA_DEF:0 "Italy"
+ ITA_ADJ:0 "Italian"
+
+ ns_party_PNFIR:0 "National Fascist Party of the Roman Empire"
+ ns_party_PNFIR_desc:0 "In the wake of the Italian Crisis of 1959-60, Mussolini's dream of re-establishing the Roman Empire seemed to crumble. The Italian Government lost control of the colonial Empire and called upon their German allies to aid them. While Mussolini foolishly hoped the Germans would help establish order and secure the Roman Empire, it became clear to everyone what was going on. The Germans refused to leave the industrial and historically Germanic North, instead integrating it into Reich alongside much of their colonial empire. With the Italian Empire crippled, Italy was turned into a meer satellite. Despite this, Mussolini still continued his efforts and reformed the Kingdom into the \"Lands Represented in the Grand Roman Senate of Fascism\", or the Roman Empire. This Roman Empire was weaker and smaller than even the former kingdom. With Mussolini leading the Roman so-called Empire into his own death, the question of Italy's future remains unanswered."
+ f_party_PNFIR:0 "National Fascist Party of the Roman Empire"
+ f_party_PNFIR_desc:0 "In the wake of the Italian Crisis of 1959-60, Mussolini's dream of re-establishing the Roman Empire seemed to crumble. The Italian Government lost control of the colonial Empire and called upon their German allies to aid them. While Mussolini foolishly hoped the Germans would help establish order and secure the Roman Empire, it became clear to everyone what was going on. The Germans refused to leave the industrial and historically Germanic North, instead integrating it into Reich alongside much of their colonial empire. With the Italian Empire crippled, Italy was turned into a meer satellite. Despite this, Mussolini still continued his efforts and reformed the Kingdom into the \"Lands Represented in the Grand Roman Senate of Fascism\", or the Roman Empire. This Roman Empire was weaker and smaller than even the former kingdom. With Mussolini leading the Roman so-called Empire into his own death, the question of Italy's future remains unanswered."
+ 
+ ITA_Rome_in_Flames:0 "Rome in Flames"
+ ITA_Rome_in_Flames_desc:0 ""

@@ -1,6 +1,6 @@
 ﻿capital = 126
-
 set_oob = "ENG_1936"
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -12,11 +12,10 @@ if = {
 }
 
 load_oob = "ENG_Motorized"
-
 set_research_slots = 4
-
 set_stability = 0.6
 set_war_support = 0.1
+set_convoys = 100
 
 # Starting tech
 set_technology = {
@@ -30,49 +29,70 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-	
 	trench_warfare = 1
-
-	
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	fighter1 = 1
+	fighter2 = 1
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	CAS2 = 1
+	naval_bomber2 = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	strategic_bomber1 = 1
+	cv_CAS1 = 1
+	cv_fighter1 = 1
+	improved_light_tank = 1
+	basic_medium_tank = 1
+	basic_heavy_tank = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	air_superiority = 1
+	home_defence = 1
+	naval_strike_tactics = 1
+	grand_battle_plan = 1
+	prepared_defense = 1
+	battlefleet_concentration = 1
+	subsidiary_carrier_role = 1
+	convoy_sailing = 1
+	convoy_escorts = 1
+	submarine_operations = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining2 = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		transport = 1
-	}
-}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -102,10 +122,36 @@ if = {
 		mtg_transport = 1
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		improved_ship_hull_light = 1
+		improved_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		improved_ship_hull_carrier = 1
+		dp_secondary_battery = 1
+		improved_sonar = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
+	else = {
+		set_technology = {
+			early_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			early_light_cruiser = 1
+			early_heavy_cruiser = 1
+			early_battleship = 1
+			early_battlecruiser = 1
+			early_carrier = 1
+			transport = 1
+			basic_submarine = 1
+			improved_submarine = 1
+			improved_destroyer = 1
+			basic_light_cruiser = 1
+			improved_light_cruiser = 1
+			basic_battleship = 1
+			basic_carrier = 1
+			improved_carrier = 1
+		}
+	}
 }
 
 if = {
@@ -117,262 +163,89 @@ if = {
 	}
 }
 
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
 add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
-	
-
-set_convoys = 800
-
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#adding ministers
-	add_ideas = {
-		ENG_ernest_bevin
-		bernard_montgomery
-		rsaf_enfield
-		archibald_wavell
-		charles_portal
-		english_electric		
-
-		#laws
-		partial_economic_mobilisation
-		limited_conscription
-
-		ENG_george_vi
-	}
-
-	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		chamberlain_appeaser rearmer
-	}
-}
-	remove_ideas = george_v #Dead
-
-	complete_national_focus = limited_rearmament_focus
-	complete_national_focus = air_defense_focus
-	complete_national_focus = radar_focus
-	complete_national_focus = shadow_scheme_focus
-	complete_national_focus = uk_empire_focus
-	complete_national_focus = uk_service_focus
-	complete_national_focus = uk_colonial_focus
-	complete_national_focus = uk_mediterranean_focus
-	complete_national_focus = uk_asia_focus
-	complete_national_focus = uk_commonwealth_focus
-
-	give_guarantee = POL
-	
-	set_oob = "ENG_1939"
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_naval_oob = "ENG_1939_Naval"
-		else = {
-			set_naval_oob = "ENG_1939_Naval_Legacy"
-		}
-	}
-
-	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		heavy_fighter2 = 1
-		CAS2 = 1
-		naval_bomber2 = 1
-		tactical_bomber1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_CAS1 = 1
-		cv_fighter1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		
-
-		#doctrines
-		#Air
-		air_superiority = 1
-		home_defence = 1
-		naval_strike_tactics = 1
-
-			grand_battle_plan = 1
-
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		convoy_escorts = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns"}
-		}
-		set_technology = {
-			basic_submarine = 1
-			improved_submarine = 1
-			improved_destroyer = 1
-			basic_light_cruiser = 1
-			improved_light_cruiser = 1
-			basic_battleship = 1
-			basic_carrier = 1
-			improved_carrier = 1
-		}
-		set_naval_oob = "ENG_1939_Naval_Legacy"
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			basic_ship_hull_submarine = 1
-			improved_ship_hull_submarine = 1
-			improved_ship_hull_light = 1
-			improved_ship_hull_cruiser = 1
-			basic_ship_hull_heavy = 1
-			
-			improved_ship_hull_carrier = 1
-			dp_secondary_battery = 1
-			improved_sonar = 1
-		}
-		set_naval_oob = "ENG_1939_Naval"
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
-		clr_global_flag = MTG_second_london_conference
-		modify_global_flag = { flag = MTG_naval_treaty_signatories value = -2 }
-	}
-
-	set_convoys = 200
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1935.11.14"
-	election_frequency = 48
+	ruling_party = neutrality
+	last_election = "1963.11.14"
+	election_frequency = 60
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
+	neutrality = 41
+	fascism = 9
+	national_socialism = 13
+	democratic = 35
+	libertarian_socialism = 2
+	communism = 0
 }
-
-create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
-}
-
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
-	traits = {
-		conservative_grandee
-	}
-}
-
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#		
-#	}
-#}
 
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	desc = ""
+	picture = "Oswald_Mosley.tga"
+	expire = "1980.1.1"
+	ideology = oligarchism
 	traits = {
-		champion_of_peace_1
-		economic_reformer
+		TITLE_Prime_Minister
 	}
 }
 
 create_country_leader = {
-	name = "Harry Pollitt"
-	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "portrait_eng_harry_pollitt.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	name = "John Tyndall"
+	desc = ""
+	picture = "John_Tyndall.tga"
+	expire = "1980.1.1"
+	ideology = fascism_ideology
 	traits = {
-		staunch_stalinist
+		TITLE_Prime_Minister
 	}
 }
 
-#create_country_leader = {
-#	name = "Rajani Palme Dutt"
-#	desc = "POLITICS_PALME_DUTT_DESC"
-#	picture = "Portrait_Britain_Palme_Dutt.dds"
-#	expire = "1965.1.1"
-#	ideology = leninism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Wilhelm Joyce"
+	desc = ""
+	picture = "Wilhelm_Joyce.tga"
+	expire = "1980.1.1"
+	ideology = nazism
+	traits = {
+		TITLE_Prime_Minister
+	}
+}
+
+create_country_leader = {
+	name = "Harold Wilson"
+	desc = ""
+	picture = "Harold_Wilson.tga"
+	expire = "1980.1.1"
+	ideology = socialism
+	traits = {
+		TITLE_Prime_Minister
+	}
+}
+
+create_country_leader = {
+	name = "Ethel Mannin"
+	desc = ""
+	picture = "Ethel_Mannin.tga"
+	expire = "1980.1.1"
+	ideology = anarchism
+	traits = {
+		TITLE_Prime_Minister
+	}
+}
+
+create_country_leader = {
+	name = "Margaret Thatcher"
+	desc = ""
+	picture = "Margaret_Thatcher.tga"
+	expire = "1980.1.1"
+	ideology = marxism
+	traits = {
+		TITLE_Governor_General
+	}
+}
 
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat

@@ -9,5 +9,6 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Protector } localization_key = TITLE_Protector }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsbevollmaechtigter } localization_key = TITLE_Reichsbevollmaechtigter }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Augustus } localization_key = TITLE_Augustus }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Prime_Minister } localization_key = TITLE_Prime_Minister }
 	text = { localization_key = TITLE_Leader }
 }
