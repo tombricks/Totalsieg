@@ -1,0 +1,13 @@
+state={
+	id=822
+	name="STATE_822"
+	provinces={
+		5555 
+	}
+	history = {
+		owner = RKI
+		add_core_of = RKI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

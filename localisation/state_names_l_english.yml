@@ -819,3 +819,5 @@
  STATE_818:0 "Northern Eastmed"
  STATE_819:0 "Western Eastmed"
  STATE_820:0 "Eastern Eastmed"
+ STATE_821:0 "MedIta"
+ STATE_822:0 "MedRki"
