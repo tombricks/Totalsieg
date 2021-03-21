@@ -8,6 +8,7 @@ leader_traits = {
 	TITLE_Reichsgouverneur = { random = no }
 	TITLE_Protector = { random = no }
 	TITLE_Reichsbevollmaechtigter = { random = no }
+	TITLE_Augustus = { random = no }
 	
 	dictator = {
 		random = no

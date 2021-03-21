@@ -131,25 +131,36 @@ if = {
 
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1934.3.26"
+	ruling_party = national_socialism
+	last_election = "1959.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 22
-	fascism = 76
+	fascism = 18
+	national_socialism = 80
 	communism = 2
 }
 
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	picture = "Benito_Mussolini.tga"
 	expire = "2000.1.1"
-	ideology = fascism_ideology
+	ideology = ns_party_PNFIR
 	traits = {
-		
+		TITLE_Augustus
+	}
+}
+
+create_country_leader = {
+	name = "Benito Mussolini"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Benito_Mussolini.tga"
+	expire = "2000.1.1"
+	ideology = f_party_PNFIR
+	traits = {
+		TITLE_Augustus
 	}
 }
 

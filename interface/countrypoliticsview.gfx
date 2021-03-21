@@ -6,6 +6,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_ideology_ns_party_NSDAP_palestine" texturefile = "gfx/interface/ideologies/party_nsdap_palestine.tga" }
 	spriteType = { name = "GFX_ideology_f_party_NSDAP_america" texturefile = "gfx/interface/ideologies/party_nsdap_america.tga" }
 	spriteType = { name = "GFX_ideology_ns_party_NSDAP_america" texturefile = "gfx/interface/ideologies/party_nsdap_america.tga" }
+	spriteType = { name = "GFX_ideology_f_party_PNFIR" texturefile = "gfx/interface/ideologies/party_pnfir.tga" }
+	spriteType = { name = "GFX_ideology_ns_party_PNFIR" texturefile = "gfx/interface/ideologies/party_pnfir.tga" }
 	
 	#Government in Exile
 
