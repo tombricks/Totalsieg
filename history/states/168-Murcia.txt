@@ -1,3 +1,4 @@
+
 state={
 	id=168
 	name="STATE_168"
@@ -5,7 +6,7 @@ state={
 	history={
 		owner = ADU
 		victory_points = {
-			10024 3
+			10024 3 
 		}
 		buildings = {
 			infrastructure = 5
@@ -22,7 +23,7 @@ state={
 	}
 
 	provinces={
-		832 1093 3835 4195 7111 9903 10024 10109 11807 11812 11884 
+		832 1093 3835 4195 7111 9903 10024 10109 11807 11812 11884 13454 
 	}
 	manpower=1007605
 	buildings_max_level_factor=1.000

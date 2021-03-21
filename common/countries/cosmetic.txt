@@ -226,11 +226,6 @@ GER_greater_german_reich = {
 	color_ui = rgb { 115 115 115 }
 }
 
-ADU = {
-	color = rgb { 240 230 155 }
-	color_ui = rgb { 240 230 155 }
-}
-
 CAT_aragon = {
 	color = rgb { 166 68 72 }
 	color_ui = rgb { 166 68 72 }
