@@ -7,6 +7,7 @@ set_convoys = 200
 
 add_ideas = {
 	ITA_Rome_in_Flames
+	ITA_Reclaim_the_Empire
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -137,9 +138,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 18
-	national_socialism = 80
-	communism = 2
+	national_socialism = 40
+	fascism = 27
+	neutrality = 20
+	communism = 8
+	democratic = 5
 }
 
 create_country_leader = {

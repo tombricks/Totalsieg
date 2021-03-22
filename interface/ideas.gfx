@@ -5612,4 +5612,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ITA_Rome_in_Flames.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_ITA_Reclaim_the_Empire"
+		texturefile = "gfx/interface/ideas/ITA_Reclaim_the_Empire.dds"
+	}
+
 }
