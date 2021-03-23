@@ -75,7 +75,7 @@ create_country_leader = {
 	picture = "Karl_Wolff.tga"
 	expire = "1999.1.1"
 	ideology = ns_party_NSDAP
-	traits = { TITLE_Reichskommissar }
+	traits = { TITLE_Reichsgouverneur }
 }
 create_country_leader = {
 	name = "Karl Wolff"
@@ -83,5 +83,5 @@ create_country_leader = {
 	picture = "Karl_Wolff.tga"
 	expire = "1999.1.1"
 	ideology = f_party_NSDAP
-	traits = { TITLE_Reichskommissar }
+	traits = { TITLE_Reichsgouverneur }
 }

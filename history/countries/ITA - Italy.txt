@@ -6,6 +6,13 @@ set_war_support = 0.7
 set_convoys = 200
 
 add_ideas = {
+	ITA_SL_Galeazzo_Ciano
+	ITA_FM_Serafino_Mazzolini
+	ITA_SM_Guido_Buffarini_Guidi
+	ITA_EM_Domenico_Pellegrini_Giampietro
+	ITA_M1_Ferdinando_Mezzasoma
+	ITA_M2_Junio_Valerio_Borghese
+
 	ITA_Rome_in_Flames
 	ITA_Reclaim_the_Empire
 	limited_exports

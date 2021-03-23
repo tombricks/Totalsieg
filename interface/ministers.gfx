@@ -27,4 +27,28 @@ spriteTypes = {
 		name = "GFX_idea_PAL_SL_Amin_al_Husseini"
 		texturefile = "gfx/interface/ideas/ministers/Amin_al_Husseini.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_ITA_SL_Galeazzo_Ciano"
+		texturefile = "gfx/interface/ideas/ministers/Galeazzo_Ciano.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_FM_Serafino_Mazzolini"
+		texturefile = "gfx/interface/ideas/ministers/Serafino_Mazzolini.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_SM_Guido_Buffarini_Guidi"
+		texturefile = "gfx/interface/ideas/ministers/Guido_Buffarini_Guidi.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_EM_Domenico_Pellegrini_Giampietro"
+		texturefile = "gfx/interface/ideas/ministers/Domenico_Pellegrini_Giampietro.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_M1_Ferdinando_Mezzasoma"
+		texturefile = "gfx/interface/ideas/ministers/Ferdinando_Mezzasoma.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ITA_M2_Junio_Valerio_Borghese"
+		texturefile = "gfx/interface/ideas/ministers/Junio_Valerio_Borghese.dds"
+	}
 }

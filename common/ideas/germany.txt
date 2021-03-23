@@ -1970,8 +1970,6 @@ ideas = {
 		}
 	}
 
-	
-	# TECHNOLOGY
 	tank_manufacturer = { 
 		
 		designer = yes
@@ -2432,7 +2430,6 @@ ideas = {
 		}
 	}	
 		
-	# MILITARY
 	army_chief = {
 
 		ludwig_beck = {

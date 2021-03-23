@@ -1,4 +1,5 @@
 ideas = {
+
 	country = {
 		victor_emmanuel = {
 			
@@ -138,7 +139,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				justify_war_goal_time = 0.15
+				justify_war_goal_time = -0.15
 				war_support_factor = 0.15
 				annex_cost_factor = -0.1
 				puppet_cost_factor = -0.1
@@ -410,8 +411,7 @@ ideas = {
 
 		}
 	}
-		
-	# MILITARY
+
 	army_chief = {
 		
 		
@@ -463,6 +463,7 @@ ideas = {
 			}
 		}	
 	}
+
 	navy_chief = {
 		
 		domenico_cavagnari = {
@@ -514,6 +515,7 @@ ideas = {
 			}
 		}	
 	}
+
 	air_chief = {
 		
 		
@@ -722,7 +724,6 @@ ideas = {
 		}
 	}
 	
-	
 	tank_manufacturer = {
 	
 		designer = yes
@@ -742,8 +743,6 @@ ideas = {
 			traits = { tank_manufacturer }
 		}
 	}
-	
-	
 	
 	materiel_manufacturer = {
 			
@@ -796,7 +795,6 @@ ideas = {
 			traits = { artillery_manufacturer }
 		}
 	}
-	
 	
 	aircraft_manufacturer = {	
 		
@@ -873,7 +871,6 @@ ideas = {
 			traits = { industrial_concern }
 		}		
 	}
-	
 	
 	naval_manufacturer = {
 	
@@ -1005,5 +1002,131 @@ ideas = {
 			
 			traits = { rocket_scientist }
 		}
+	}
+		
+	secondary_leader = {
+		 
+		ITA_SL_Galeazzo_Ciano = {
+			 
+			allowed = {
+				original_tag = ITA
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Galeazzo_Ciano_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
+	}
+		
+	foreign_minister = {
+		 
+		ITA_FM_Serafino_Mazzolini = {
+			 
+			allowed = {
+				original_tag = ITA
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Serafino_Mazzolini_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
+	}
+		
+	security_minister = {
+		 
+		ITA_SM_Guido_Buffarini_Guidi = {
+			 
+			allowed = {
+				original_tag = ITA
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Guido_Buffarini_Guidi_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
+	}
+		
+	economics_minister = {
+		 
+		ITA_EM_Domenico_Pellegrini_Giampietro = {
+			 
+			allowed = {
+				original_tag = ITA
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Domenico_Pellegrini_Giampietro_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
+	}
+		
+	minister_1 = {
+		 
+		ITA_M1_Ferdinando_Mezzasoma = {
+			 
+			allowed = {
+				original_tag = ITA
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Ferdinando_Mezzasoma_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
+	}
+		
+	minister_2 = {
+		 
+		ITA_M2_Junio_Valerio_Borghese = {
+			 
+			allowed = {
+				original_tag = GER
+		 	}
+		 	available = {
+				OR = { has_government = fascism has_government = national_socialism }
+				NOT = {
+					has_country_flag = ITA_Junio_Valerio_Borghese_unavailable
+				}
+			}
+			 
+			traits = {	}
+
+			cost = -1
+			removal_cost = -1
+	 	}
 	}
 }
