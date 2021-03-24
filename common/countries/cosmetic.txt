@@ -660,3 +660,8 @@ TBE_third_bulgarian_empire_neutrality = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
 }
+
+GER_SS_COSMETICS
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}

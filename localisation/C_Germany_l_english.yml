@@ -10,6 +10,10 @@
  GER_national_socialism_ADJ: "German"
  GER_national_socialism_party: "NSDAP"
  GER_national_socialism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
+ GER_nsdap_party: "NSDAP"
+ GER_nsdap_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
+ GER_gdss_party: "GDSS"
+ GER_gdss_party_long: "Großdeutsches Schutzstaffel"
 
  GER_democratic: "Federal Republic of Germany"
  GER_democratic_DEF: "the Federal Republic of Germany"
@@ -334,6 +338,8 @@
  f_party_NSDAP_palestine: "National Socialism"
  f_party_NSDAP_palestine_desc: "The Arab-German National Socialist German Party (Arabisch-Deutsche Nationalsozialistische Partei) is the leading political party for the German puppet administration in Palestine, the Großdeutsches Palästinaprotektorat. However, the Palestine Protectorate is unique among the Reich. Most of the Reich has levels of collaboration, but most is still ruled by German officials. The Palestine Protectorate differs from this. Joachim von Ribbentrop is the appointed Reichsgouverneur but much of the day to day is run by local officials, most notably Grand Mufti of Jerusalem Amin al-Husseini who regularly does what the aforementioned Reichsgouverneur should be doing. The Germans care little about the day to day. The primary purpose of the Protectorate is to act as a safe German gateway into the Middle East, where they want to combat Japanese influence and secure it for themselves in the ongoing and ever-growing Cold War. And, with the inevitability of choosing a side becoming ever more clear to the states in the region such as Iraq, the Protectorate may soon have to fulfil its use."
 
+### Ideas
+
  GER_SL_Hermann_Goering: "Hermann Göring"
  GER_Hermann_Goering_unavailable: "Hermann Göring is unavailable"
  GER_FM_Joachim_von_Ribbentrop: "Joachim von Ribbentrop"
@@ -350,7 +356,40 @@
  GER_High_Collaboration: "High Collaboration"
  GER_High_Collaboration_desc: "While a German may be the official Head of [THIS.GetNameDef], local officials are able to manage much of the day to day activities due to the large pool of willing supporters of our National Socialist cause in the region."
 
+### Events
+
+ GER_Death_of_Hitler.1.T: "Der Führer ist tot!"
+ GER_Death_of_Hitler.1.A: "The Reichssenat must convene"
+ GER_Death_of_Hitler.1.B: "The Gears are in motion. Begin Operation Schwarz!"
+
+ GER_Death_of_Hitler.2.T: "Hitler is Dead"
+ GER_Death_of_Hitler.2.A: "It was only inevitable..."
+
+ GER_Death_of_Hitler.3.T: "First Convention of the Reichssenat"
+ GER_Death_of_Hitler.3.A: "The Propagandist"
+ GER_Death_of_Hitler.3.B: "The Marshal"
+ GER_Death_of_Hitler.3.C: "The Architect"
+
+ GER_Death_of_Hitler.4.T: "Himmler Putsch"
+ GER_Death_of_Hitler.4.A: "Heil Himmler!"
+
+ GER_Death_of_Hitler.5.T: "Führer Goebbels"
+ GER_Death_of_Hitler.5.A: "Heil Goebbels!"
+
+ GER_Death_of_Hitler.6.T: "Führer Göring"
+ GER_Death_of_Hitler.6.A: "Heil Göring!"
+
+ GER_Death_of_Hitler.7.T: "Führer Speer"
+ GER_Death_of_Hitler.7.A: "Heil Speer!"
+
+ GER_Death_of_Hitler.8.T: "Himmler overthrows the Reichssenat!"
+ GER_Death_of_Hitler.8.A: "May the lord have mercy on the Germans"
+
+### Decisions
+
  GER_Succession_Category: "Nachfolge"
- GER_Succession_Category_desc: "Führer des Groẞgermanischen Reiches Adolf Hitler has been the leader of Germany since the death of former Reichspräsident Paul von Hindenburg, but this leadership may very well be coming to an end. He has been on his death bed for months and he is in no fit state to make decisions. With this, various high ranking officials of the German government have began to make moves to achieve victory in the emerging power struggle.\n\n§OThe Architect, Albert Speer: §![?Speer_Influence]\ns\n\n§YThe Propagandist, Joseph Goebbels: §![?Goebbels_Influence]\ns\n\n§CThe Militarist, Hermann Göring: §![?Goering_Influence]\ns\n\n§RThe Secretary, Martin Bormann: §![?Bormann_Influence]\ns\n\n§LThe Terror, Heinrich Himmler: §![?Himmler_Influence]\ns"
+ GER_Succession_Category_desc: ""
+
+### Other
 
  GER_Satellite_tt: "Satellite of [GER.GetNameDef]"

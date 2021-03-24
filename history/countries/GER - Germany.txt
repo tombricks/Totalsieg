@@ -183,12 +183,6 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-set_variable = { Goebbels_Influence = 20 } # Goebbels is just generally influential
-set_variable = { Bormann_Influence = 20 } # Boringman has a say in much of what Hitler hears 
-set_variable = { Goering_Influence = 20 } # Goering is the main designated successor but that was a long time ago
-set_variable = { Himmler_Influence = 10 } # Himmler is popular but not to be the successor
-set_variable = { Speer_Influence = 15 } # he just wants lego init
-
 create_faction = GER_reich_faction
 add_to_faction = GER
 add_to_faction = IRE

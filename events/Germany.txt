@@ -1,0 +1,307 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = GER_Death_of_Hitler
+
+# Death of Hitler - GER
+country_event = {
+	id = GER_Death_of_Hitler.1
+	title = GER_Death_of_Hitler.1.T
+	desc = GER_Death_of_Hitler.1.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		has_country_leader = {
+			name = "Adolf Hitler"
+			ruling_only = yes
+		}
+		date > 1968.5.3			
+	}
+	
+ 	immediate = {
+		hidden_effect = {
+			set_global_flag = GER_Death_of_Hitler
+			kill_ideology_leader = fascism
+			kill_ideology_leader = national_socialism
+			create_country_leader = {
+				name = "Großdeutscher Reichstag"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Reichstag.tga"
+				expire = "1999.1.1"
+				ideology = ns_party_NSDAP
+				traits = {
+					TITLE_Legislative_Body
+				}
+			}
+			create_country_leader = {
+				name = "Großdeutscher Reichstag"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Reichstag.tga"
+				expire = "1999.1.1"
+				ideology = f_party_NSDAP
+				traits = {
+					TITLE_Legislative_Body
+				}
+			}
+			news_event = {
+				id = GER_Death_of_Hitler.2
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = GER_Death_of_Hitler.1.A
+		country_event = {
+			id = GER_Death_of_Hitler.3
+			days = 3
+		}
+	}
+
+	option = {
+		name = GER_Death_of_Hitler.1.B
+		trigger = {
+			OR = {
+				is_debug = yes
+				check_variable = { GER_Death_of_Hitler_SS_Influence > 49 }
+			}
+		}
+		country_event = {
+			id = GER_Death_of_Hitler.4
+			days = 3
+		}
+	}
+}
+
+# Death of Hitler - News
+news_event = {
+	id = GER_Death_of_Hitler.2
+	title = GER_Death_of_Hitler.2.T
+	desc = GER_Death_of_Hitler.2.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = no
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = GER_Death_of_Hitler.2.A
+	}
+}
+
+# Reichssenat Vote
+country_event = {
+	id = GER_Death_of_Hitler.3
+	title = GER_Death_of_Hitler.3.T
+	desc = GER_Death_of_Hitler.3.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = GER_Death_of_Hitler.3.A
+		news_event = {
+			id = GER_Death_of_Hitler.5
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Joseph Goebbels"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Joseph_Goebbels.tga"
+			expire = "1999.1.1"
+			ideology = f_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+		create_country_leader = {
+			name = "Joseph Goebbels"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Joseph_Goebbels.tga"
+			expire = "1999.1.1"
+			ideology = ns_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+	}
+
+	option = {
+		name = GER_Death_of_Hitler.3.B
+		news_event = {
+			id = GER_Death_of_Hitler.6
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Hermann Göring"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Hermann_Goring.tga"
+			expire = "1999.1.1"
+			ideology = f_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+		create_country_leader = {
+			name = "Hermann Göring"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Hermann_Goring.tga"
+			expire = "1999.1.1"
+			ideology = ns_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+	}
+
+	option = {
+		name = GER_Death_of_Hitler.3.C
+		news_event = {
+			id = GER_Death_of_Hitler.7
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Albert Speer"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Albert_Speer.tga"
+			expire = "1999.1.1"
+			ideology = f_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+		create_country_leader = {
+			name = "Albert Speer"
+			desc = "POLITICS_REICHSTAG_DESC"
+			picture = "Albert_Speer.tga"
+			expire = "1999.1.1"
+			ideology = ns_party_NSDAP
+			traits = {
+				TITLE_Fuhrer
+			}
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		hidden_effect = {
+			set_popularities = {
+				national_socialism = 29
+				fascism = 44
+				neutrality = 20
+				communism = 7
+			}
+		}
+	}
+}
+
+# Himmler Putsch
+country_event = {
+	id = GER_Death_of_Hitler.4
+	title = GER_Death_of_Hitler.4.T
+	desc = GER_Death_of_Hitler.4.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Heinrich Himmler"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Heinrich_Himmler.tga"
+				expire = "1999.1.1"
+				ideology = f_party_NSDAP
+				traits = {
+					TITLE_Fuhrer
+				}
+			}
+			create_country_leader = {
+				name = "Heinrich Himmler"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Heinrich_Himmler.tga"
+				expire = "1999.1.1"
+				ideology = ns_party_NSDAP
+				traits = {
+					TITLE_Fuhrer
+				}
+			}
+			set_party_name = {
+				ideology = national_socialism
+				name = GER_gdss_party
+				long_name = GER_gdss_party_long
+			}
+			set_party_name = {
+				ideology = fascism
+				name = GER_nsdap_party
+				long_name = GER_nsdap_party_long
+			}
+			add_stability = -0.1
+			set_cosmetic_tag = GER_SS_COSMETICS
+		}
+	}
+
+	option = {
+		name = GER_Death_of_Hitler.4.A
+		news_event = {
+			id = GER_Death_of_Hitler.8
+		}
+	}
+}
+
+# Führer Goebbels
+news_event = {
+	id = GER_Death_of_Hitler.5
+	title = GER_Death_of_Hitler.5.T
+	desc = GER_Death_of_Hitler.5.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = no
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = GER_Death_of_Hitler.5.A
+	}
+}
+
+# Führer Göring
+news_event = {
+	id = GER_Death_of_Hitler.6
+	title = GER_Death_of_Hitler.6.T
+	desc = GER_Death_of_Hitler.6.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = no
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = GER_Death_of_Hitler.6.A
+	}
+}
+
+# Führer Speer
+news_event = {
+	id = GER_Death_of_Hitler.7
+	title = GER_Death_of_Hitler.7.T
+	desc = GER_Death_of_Hitler.7.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = no
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = GER_Death_of_Hitler.7.A
+	}
+}
+
+# Himmler Putsch News
+news_event = {
+	id = GER_Death_of_Hitler.8
+	title = GER_Death_of_Hitler.8.T
+	desc = GER_Death_of_Hitler.8.D
+	picture = GFX_report_event_german_speech
+	fire_only_once = no
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = GER_Death_of_Hitler.8.A
+	}
+}
