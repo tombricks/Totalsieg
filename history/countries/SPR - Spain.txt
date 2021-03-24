@@ -1,5 +1,5 @@
 ﻿capital = 41
-oob = "SPR_1967"
+oob = "SPR_1963"
 set_research_slots = 3
 
 # Starting tech

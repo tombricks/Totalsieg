@@ -1,6 +1,6 @@
 ﻿capital = 373
 
-oob = "COW_1967"
+oob = "COW_1963"
 
 set_research_slots = 3
 

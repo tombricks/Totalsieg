@@ -9,7 +9,7 @@ country_event = {
 	id = GER_Death_of_Hitler.1
 	title = GER_Death_of_Hitler.1.T
 	desc = GER_Death_of_Hitler.1.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_COUNTRY_Hitler_Death
 	fire_only_once = yes
 	
 	trigger = {
@@ -18,7 +18,7 @@ country_event = {
 			name = "Adolf Hitler"
 			ruling_only = yes
 		}
-		date > 1968.5.3			
+		date > 1964.5.3			
 	}
 	
  	immediate = {
@@ -81,7 +81,7 @@ news_event = {
 	id = GER_Death_of_Hitler.2
 	title = GER_Death_of_Hitler.2.T
 	desc = GER_Death_of_Hitler.2.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_NEWS_Hitler_Death
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
@@ -95,7 +95,7 @@ country_event = {
 	id = GER_Death_of_Hitler.3
 	title = GER_Death_of_Hitler.3.T
 	desc = GER_Death_of_Hitler.3.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_COUNTRY_Munich_Brown_House
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -200,7 +200,7 @@ country_event = {
 	id = GER_Death_of_Hitler.4
 	title = GER_Death_of_Hitler.4.T
 	desc = GER_Death_of_Hitler.4.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_COUNTRY_Himmler_Putsch
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -255,7 +255,7 @@ news_event = {
 	id = GER_Death_of_Hitler.5
 	title = GER_Death_of_Hitler.5.T
 	desc = GER_Death_of_Hitler.5.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
@@ -269,7 +269,7 @@ news_event = {
 	id = GER_Death_of_Hitler.6
 	title = GER_Death_of_Hitler.6.T
 	desc = GER_Death_of_Hitler.6.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
@@ -283,7 +283,7 @@ news_event = {
 	id = GER_Death_of_Hitler.7
 	title = GER_Death_of_Hitler.7.T
 	desc = GER_Death_of_Hitler.7.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
@@ -297,7 +297,7 @@ news_event = {
 	id = GER_Death_of_Hitler.8
 	title = GER_Death_of_Hitler.8.T
 	desc = GER_Death_of_Hitler.8.D
-	picture = GFX_report_event_german_speech
+	picture = GFX_NEWS_Himmler_Putsch
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes

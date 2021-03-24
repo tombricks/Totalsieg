@@ -1,5 +1,5 @@
 ﻿capital = 554
-oob = "PAL_1967"
+oob = "PAL_1963"
 set_research_slots = 3
 
 # Starting tech

@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "TOTALSIEG_NAME"
 		desc = "TOTALSIEG_DESC"
-		date = 1967.5.3.12
+		date = 1963.5.3.12
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 

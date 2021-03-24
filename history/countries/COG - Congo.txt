@@ -1,5 +1,5 @@
 ﻿capital = 295
-oob = "COG_1967"
+oob = "COG_1963"
 set_research_slots = 3
 
 # Starting tech

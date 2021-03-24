@@ -204,7 +204,6 @@ if = {
 	set_autonomy = { target = RKO autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKU autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKM autonomy_state = autonomy_GER_Reichskommissariat }
-	set_autonomy = { target = RKD autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKK autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = GGN autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = USA autonomy_state = autonomy_GER_Reichskommissariat }
@@ -327,10 +326,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm Keitel"
+	name = "Alfred Jodl"
 	desc = ""
-	picture = "Portrait_Germany_Wilhelm_Keitel.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Germany_Alfred_Jodl.dds"
+	expire = "1999.1.1"
 	ideology = despotism
 	traits = {
 	}
@@ -340,7 +339,7 @@ create_country_leader = {
 	name = "Walter Ulbricht"
 	desc = ""
 	picture = "Portrait_Germany_Walter_Ulbricht.dds"
-	expire = "1965.1.1"
+	expire = "1999.1.1"
 	ideology = leninism
 	traits = {
 		exiled

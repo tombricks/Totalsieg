@@ -1,5 +1,5 @@
 ﻿capital = 291
-oob = "IRQ_1967"
+oob = "IRQ_1963"
 set_convoys = 5
 
 # Starting tech
