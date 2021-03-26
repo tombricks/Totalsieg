@@ -159,7 +159,7 @@ if = {
 
 set_politics = {
 	ruling_party = national_socialism
-	last_election = "1933.3.5"
+	last_election = "1963.1.0"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -189,6 +189,7 @@ add_to_faction = IRE
 add_to_faction = ENG
 add_to_faction = SAF
 
+set_variable = { GER_Nachfolge_SS_Influence = 10 }
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

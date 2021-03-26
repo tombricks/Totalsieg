@@ -183,6 +183,7 @@ ideologies = {
 			f_party_NSDAP_palestine = { can_be_randomly_selected  = no }
 			f_party_NSDAP_america = { can_be_randomly_selected  = no }
 			f_party_PNFIR = { can_be_randomly_selected  = no }
+			f_party_NSGRP = { can_be_randomly_selected  = no }
 			
 			fascism_ideology = {
 			}
@@ -240,6 +241,7 @@ ideologies = {
 			ns_party_NSDAP_palestine = { can_be_randomly_selected  = no }
 			ns_party_NSDAP_america = { can_be_randomly_selected  = no }
 			ns_party_PNFIR = { can_be_randomly_selected  = no }
+			ns_party_NSGRP = { can_be_randomly_selected  = no }
 		
 			nazism = {
 			}

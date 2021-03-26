@@ -36,6 +36,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_COUNTRY_Volkshalle_2"
+		texturefile = "gfx/event_pictures/COUNTRY_Volkshalle_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_COUNTRY_Schutzstaffel"
+		texturefile = "gfx/event_pictures/COUNTRY_Schutzstaffel.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}

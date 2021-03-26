@@ -39,10 +39,21 @@
  GER_libertarian_socialism_party: "Anarchists"
  GER_libertarian_socialism_party_long: "Anarchists"
 
+ GER_Germanic_fascism: "Großgermanisches Reich"
+ GER_Germanic_fascism_DEF: "the Großgermanisches Reich der Deutschen Nation"
+ GER_Germanic_fascism_ADJ: "German"
+ GER_Germanic_national_socialism: "Großgermanisches Reich"
+ GER_Germanic_national_socialism_DEF: "the Großgermanisches Reich der Deutschen Nation"
+ GER_Germanic_national_socialism_ADJ: "German"
+ GER_Germanic_party: "NSGRP"
+ GER_Germanic_party_long: "Nationalsozialistische Großgermanische Reichspartei"
+
  ns_party_NSDAP: "National Socialism"
  ns_party_NSDAP_desc: "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  f_party_NSDAP: "National Socialism"
  f_party_NSDAP_desc: "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ ns_party_NSGRP: "National Socialism"
+ ns_party_NSGRP_desc: ""
 
  GER: "Germany"
  GER_DEF: "Germany"
@@ -89,16 +100,24 @@
  GGN_national_socialism_party: "NSDAP"
  GGN_national_socialism_party_party: "Nationalsozialistische Deutsche Arbeiterpartei"
 
- RKO_GER_autonomy_GER_Protektorat: "Ostlandverwaltung"
- RKO_GER_autonomy_GER_Protektorat_DEF: "the Ostlandverwaltung"
- RKO_GER_autonomy_GER_Protektorat_ADJ: "Ostland"
- RKO_GER_autonomy_GER_Reichskommissariat: "Reichskommissariat Ostland"
- RKO_GER_autonomy_GER_Reichskommissariat_DEF: "the Reichskommissariat Ostland"
- RKO_GER_autonomy_GER_Reichskommissariat_ADJ: "Ostland"
+ #RKO_GER_autonomy_GER_Protektorat: "Ostlandverwaltung"
+ #RKO_GER_autonomy_GER_Protektorat_DEF: "the Ostlandverwaltung"
+ #RKO_GER_autonomy_GER_Protektorat_ADJ: "Ostland"
+ #RKO_GER_autonomy_GER_Reichskommissariat: "Reichskommissariat Ostland"
+ #RKO_GER_autonomy_GER_Reichskommissariat_DEF: "the Reichskommissariat Ostland"
+ #RKO_GER_autonomy_GER_Reichskommissariat_ADJ: "Ostland"
+ RKO_Reichskommissariat: "Reichskommissariat Ostland"
+ RKO_Reichskommissariat_DEF: "the Reichskommissariat Ostland"
+ RKO_Reichskommissariat_ADJ: "Ostland"
+ RKO_SS: "SS-Verwaltungsregierung Ostland"
+ RKO_SS_DEF: "the SS-Verwaltungsregierung Ostland"
+ RKO_SS_ADJ: "SS-Ostland"
  RKO_fascism_party: "AOdNSDAP"
  RKO_fascism_party_party: "Arbeitsbereich Osten der Nationalsozialistische Deutsche Arbeiterpartei"
  RKO_national_socialism_party: "AOdNSDAP"
  RKO_national_socialism_party_party: "Arbeitsbereich Osten der Nationalsozialistische Deutsche Arbeiterpartei"
+ RKO_SS_party: "SS-Ostland"
+ RKO_SS_party_long: "Schutzstaffel - Regionalbüro Ostland"
 
  TUN_GER_autonomy_GER_Protektorat: "Großatlantropisches Reich"
  TUN_GER_autonomy_GER_Protektorat_DEF: "the Großatlantropisches Reich"
@@ -358,32 +377,32 @@
 
 ### Events
 
- GER_Death_of_Hitler.1.T: "Der Führer ist tot!"
- GER_Death_of_Hitler.1.A: "The Reichssenat must convene"
- GER_Death_of_Hitler.1.B: "The Gears are in motion. Begin Operation Schwarz!"
+ GER_Nachfolge.1.T: "Der Führer ist tot!"
+ GER_Nachfolge.1.A: "The Reichssenat must convene"
+ GER_Nachfolge.1.B: "The Gears are in motion. Begin Operation Schwarz!"
 
- GER_Death_of_Hitler.2.T: "Hitler is Dead"
- GER_Death_of_Hitler.2.A: "It was only inevitable..."
+ GER_Nachfolge.2.T: "Hitler is Dead"
+ GER_Nachfolge.2.A: "It was only inevitable..."
 
- GER_Death_of_Hitler.3.T: "First Convention of the Reichssenat"
- GER_Death_of_Hitler.3.A: "The Propagandist"
- GER_Death_of_Hitler.3.B: "The Marshal"
- GER_Death_of_Hitler.3.C: "The Architect"
+ GER_Nachfolge.3.T: "First Convention of the Reichssenat"
+ GER_Nachfolge.3.A: "The Propagandist"
+ GER_Nachfolge.3.B: "The Marshal"
+ GER_Nachfolge.3.C: "The Architect"
 
- GER_Death_of_Hitler.4.T: "Himmler Putsch"
- GER_Death_of_Hitler.4.A: "Heil Himmler!"
+ GER_Nachfolge.4.T: "Himmler Putsch"
+ GER_Nachfolge.4.A: "Heil Himmler!"
 
- GER_Death_of_Hitler.5.T: "Führer Goebbels"
- GER_Death_of_Hitler.5.A: "Heil Goebbels!"
+ GER_Nachfolge.5.T: "Führer Goebbels"
+ GER_Nachfolge.5.A: "Heil Goebbels!"
 
- GER_Death_of_Hitler.6.T: "Führer Göring"
- GER_Death_of_Hitler.6.A: "Heil Göring!"
+ GER_Nachfolge.6.T: "Führer Göring"
+ GER_Nachfolge.6.A: "Heil Göring!"
 
- GER_Death_of_Hitler.7.T: "Führer Speer"
- GER_Death_of_Hitler.7.A: "Heil Speer!"
+ GER_Nachfolge.7.T: "Führer Speer"
+ GER_Nachfolge.7.A: "Heil Speer!"
 
- GER_Death_of_Hitler.8.T: "Himmler overthrows the Reichssenat!"
- GER_Death_of_Hitler.8.A: "May the lord have mercy on the Germans"
+ GER_Nachfolge.8.T: "Himmler overthrows the Reichssenat!"
+ GER_Nachfolge.8.A: "May the lord have mercy on the Germans"
 
 ### Decisions
 

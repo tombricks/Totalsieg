@@ -69,18 +69,20 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = RKO_Reichskommissariat
+
 create_country_leader = {
-	name = "Franz Walter Stahlecker"
+	name = "Hinrich Lohse"
 	desc = ""
-	picture = "Franz_Walter_Stahlecker.tga"
+	picture = "Hinrich_Lohse.tga"
 	expire = "1999.1.1"
 	ideology = ns_party_NSDAP
 	traits = { TITLE_Reichskommissar }
 }
 create_country_leader = {
-	name = "Franz Walter Stahlecker"
+	name = "Hinrich Lohse"
 	desc = ""
-	picture = "Franz_Walter_Stahlecker.tga"
+	picture = "Hinrich_Lohse.tga"
 	expire = "1999.1.1"
 	ideology = f_party_NSDAP
 	traits = { TITLE_Reichskommissar }

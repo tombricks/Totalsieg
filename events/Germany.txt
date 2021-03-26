@@ -2,13 +2,17 @@
 # German Events
 ###########################
 
-add_namespace = GER_Death_of_Hitler
+add_namespace = GER_Nachfolge
+add_namespace = GER_Speer_Gleichschaltung
+add_namespace = GER_Goebbels_Gleichschaltung
+add_namespace = GER_Goering_Gleichschaltung
+add_namespace = GER_Himmler_Gleichschaltung
 
 # Death of Hitler - GER
 country_event = {
-	id = GER_Death_of_Hitler.1
-	title = GER_Death_of_Hitler.1.T
-	desc = GER_Death_of_Hitler.1.D
+	id = GER_Nachfolge.1
+	title = GER_Nachfolge.1.T
+	desc = GER_Nachfolge.1.D
 	picture = GFX_COUNTRY_Hitler_Death
 	fire_only_once = yes
 	
@@ -23,7 +27,7 @@ country_event = {
 	
  	immediate = {
 		hidden_effect = {
-			set_global_flag = GER_Death_of_Hitler
+			set_global_flag = GER_Nachfolge
 			kill_ideology_leader = fascism
 			kill_ideology_leader = national_socialism
 			create_country_leader = {
@@ -47,30 +51,30 @@ country_event = {
 				}
 			}
 			news_event = {
-				id = GER_Death_of_Hitler.2
+				id = GER_Nachfolge.2
 				days = 1
 			}
 		}
 	}
 
 	option = {
-		name = GER_Death_of_Hitler.1.A
+		name = GER_Nachfolge.1.A
 		country_event = {
-			id = GER_Death_of_Hitler.3
+			id = GER_Nachfolge.3
 			days = 3
 		}
 	}
 
 	option = {
-		name = GER_Death_of_Hitler.1.B
+		name = GER_Nachfolge.1.B
 		trigger = {
 			OR = {
 				is_debug = yes
-				check_variable = { GER_Death_of_Hitler_SS_Influence > 49 }
+				check_variable = { GER_Nachfolge_SS_Influence > 49 }
 			}
 		}
 		country_event = {
-			id = GER_Death_of_Hitler.4
+			id = GER_Nachfolge.4
 			days = 3
 		}
 	}
@@ -78,32 +82,33 @@ country_event = {
 
 # Death of Hitler - News
 news_event = {
-	id = GER_Death_of_Hitler.2
-	title = GER_Death_of_Hitler.2.T
-	desc = GER_Death_of_Hitler.2.D
+	id = GER_Nachfolge.2
+	title = GER_Nachfolge.2.T
+	desc = GER_Nachfolge.2.D
 	picture = GFX_NEWS_Hitler_Death
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = GER_Death_of_Hitler.2.A
+		name = GER_Nachfolge.2.A
 	}
 }
 
 # Reichssenat Vote
 country_event = {
-	id = GER_Death_of_Hitler.3
-	title = GER_Death_of_Hitler.3.T
-	desc = GER_Death_of_Hitler.3.D
+	id = GER_Nachfolge.3
+	title = GER_Nachfolge.3.T
+	desc = GER_Nachfolge.3.D
 	picture = GFX_COUNTRY_Munich_Brown_House
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = {
-		name = GER_Death_of_Hitler.3.A
+		name = GER_Nachfolge.3.A
 		news_event = {
-			id = GER_Death_of_Hitler.5
+			id = GER_Nachfolge.5
 		}
+		set_global_flag = GER_Goebbels_Successor
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Joseph Goebbels"
@@ -128,10 +133,11 @@ country_event = {
 	}
 
 	option = {
-		name = GER_Death_of_Hitler.3.B
+		name = GER_Nachfolge.3.B
 		news_event = {
-			id = GER_Death_of_Hitler.6
+			id = GER_Nachfolge.6
 		}
+		set_global_flag = GER_Goering_Successor
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Hermann Göring"
@@ -156,10 +162,11 @@ country_event = {
 	}
 
 	option = {
-		name = GER_Death_of_Hitler.3.C
+		name = GER_Nachfolge.3.C
 		news_event = {
-			id = GER_Death_of_Hitler.7
+			id = GER_Nachfolge.7
 		}
+		set_global_flag = GER_Speer_Successor
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Albert Speer"
@@ -197,9 +204,9 @@ country_event = {
 
 # Himmler Putsch
 country_event = {
-	id = GER_Death_of_Hitler.4
-	title = GER_Death_of_Hitler.4.T
-	desc = GER_Death_of_Hitler.4.D
+	id = GER_Nachfolge.4
+	title = GER_Nachfolge.4.T
+	desc = GER_Nachfolge.4.D
 	picture = GFX_COUNTRY_Himmler_Putsch
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -238,70 +245,125 @@ country_event = {
 				long_name = GER_nsdap_party_long
 			}
 			add_stability = -0.1
-			set_cosmetic_tag = GER_SS_COSMETICS
+		}
+		country_event = {
+			id = GER_Himmler_Gleichschaltung.1
+			days = 7
 		}
 	}
 
 	option = {
-		name = GER_Death_of_Hitler.4.A
+		name = GER_Nachfolge.4.A
 		news_event = {
-			id = GER_Death_of_Hitler.8
+			id = GER_Nachfolge.8
 		}
 	}
 }
 
 # Führer Goebbels
 news_event = {
-	id = GER_Death_of_Hitler.5
-	title = GER_Death_of_Hitler.5.T
-	desc = GER_Death_of_Hitler.5.D
+	id = GER_Nachfolge.5
+	title = GER_Nachfolge.5.T
+	desc = GER_Nachfolge.5.D
 	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = GER_Death_of_Hitler.5.A
+		name = GER_Nachfolge.5.A
 	}
 }
 
 # Führer Göring
 news_event = {
-	id = GER_Death_of_Hitler.6
-	title = GER_Death_of_Hitler.6.T
-	desc = GER_Death_of_Hitler.6.D
+	id = GER_Nachfolge.6
+	title = GER_Nachfolge.6.T
+	desc = GER_Nachfolge.6.D
 	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = GER_Death_of_Hitler.6.A
+		name = GER_Nachfolge.6.A
 	}
 }
 
 # Führer Speer
 news_event = {
-	id = GER_Death_of_Hitler.7
-	title = GER_Death_of_Hitler.7.T
-	desc = GER_Death_of_Hitler.7.D
+	id = GER_Nachfolge.7
+	title = GER_Nachfolge.7.T
+	desc = GER_Nachfolge.7.D
 	picture = GFX_NEWS_Volkshalle
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = GER_Death_of_Hitler.7.A
+		name = GER_Nachfolge.7.A
 	}
 }
 
 # Himmler Putsch News
 news_event = {
-	id = GER_Death_of_Hitler.8
-	title = GER_Death_of_Hitler.8.T
-	desc = GER_Death_of_Hitler.8.D
+	id = GER_Nachfolge.8
+	title = GER_Nachfolge.8.T
+	desc = GER_Nachfolge.8.D
 	picture = GFX_NEWS_Himmler_Putsch
 	fire_only_once = no
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = GER_Death_of_Hitler.8.A
+		name = GER_Nachfolge.8.A
+	}
+}
+
+# Rid the Weimar Constitutional Shackles (Großgermanische Verfassung)
+country_event = {
+	id = GER_Himmler_Gleichschaltung.1
+	title = GER_Himmler_Gleichschaltung.1.T
+	desc = GER_Himmler_Gleichschaltung.1.D
+	picture = GFX_COUNTRY_Volkshalle_2
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+	}
+
+	option = {
+		name = GER_Himmler_Gleichschaltung.1.A
+		set_cosmetic_tag = GER_Germanic
+		set_party_name = {
+			ideology = national_socialism
+			name = GER_Germanic_party
+			long_name = GER_Germanic_party_long
+		}
+		hidden_effect = {
+			set_party_name = {
+				ideology = fascism
+				name = GER_nsdap_party
+				long_name = GER_nsdap_party_long
+			}
+			retire_ideology_leader = fascism
+			retire_ideology_leader = national_socialism
+			create_country_leader = {
+				name = "Heinrich Himmler"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Heinrich_Himmler.tga"
+				expire = "1999.1.1"
+				ideology = f_party_NSGRP
+				traits = {
+					TITLE_Fuhrer
+				}
+			}
+			create_country_leader = {
+				name = "Heinrich Himmler"
+				desc = "POLITICS_REICHSTAG_DESC"
+				picture = "Heinrich_Himmler.tga"
+				expire = "1999.1.1"
+				ideology = ns_party_NSGRP
+				traits = {
+					TITLE_Fuhrer
+				}
+			}
+		}
 	}
 }
