@@ -69,6 +69,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = DEN_Protektorat
+
 create_country_leader = {
 	name = "Werner Best"
 	desc = ""

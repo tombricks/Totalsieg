@@ -105,16 +105,33 @@ d_GER_Himmler_Ostland_Invasion = {
 		}
 	}
 	RKO = {
-		start_civil_war = {
-			ideology = national_socialism
-			size = 0.3
-			states = { 11 189 190 }
-			keep_political_leader = no
-			save_global_event_target_as = SS_Ostland
+		leave_faction = yes
+		create_dynamic_country = {
+			original_tag = RKO
+			set_country_flag = RKO_SS
+			set_cosmetic_tag = RKO_SS
+			save_global_event_target_as = RKO_SS
+			set_research_slots = 3
+			
+			set_politics = {
+				ruling_party = national_socialism
+			}
+
+			set_party_name = {
+				ideology = national_socialism
+				name = RKO_SS_party
+				long_name = RKO_SS_party_long
+			}
+
+			set_popularities = {
+				national_socialism = 100
+			}
+
 			GER = {
 				add_to_faction = PREV
 				add_to_array = { GER.GER_Reich_Reichskommissariats = PREV }
 			}
+
 			create_country_leader = {
 				name = "Franz Walter Stahlecker"
 				desc = ""
@@ -123,7 +140,34 @@ d_GER_Himmler_Ostland_Invasion = {
 				ideology = ns_party_NSGRP
 				traits = { TITLE_Reichsgouverneur }
 			}
-			set_cosmetic_tag = RKO_SS
+
+			reserve_dynamic_country = yes
 		}
+	}
+	SSO = {
+		transfer_state = 189
+		transfer_state = 190
+		transfer_state = 11
+		RKO = {
+			transfer_units_fraction = {
+				target = PREV
+				stockpile_ratio = 0.4
+				army_ratio = 0.3
+				navy_ratio = 0.1
+				air_ratio = 0.1
+				keep_unit_leaders = {
+				    
+				}
+				keep_unit_leaders_trigger = {
+					#has_trait = trait_SPA_falangist_loyalties
+				}
+			}
+		}
+		declare_war_on = {
+			target = RKO
+			type = SS_Coup
+		}
+		add_civil_war_target = RKO
+		set_country_flag = SS_Reichskommissariat_War
 	}
 }

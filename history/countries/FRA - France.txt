@@ -69,6 +69,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = FRA_Reichskommissariat
+
 create_country_leader = {
 	name = "Carl-Heinrich von Stülpnagel"
 	desc = ""

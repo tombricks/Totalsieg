@@ -1006,6 +1006,17 @@ on_actions = {
 				set_country_flag = { flag = won_ideology_civil_war value = 1 days = 365 }
 				country_event = { id = generic.11 days = 1 }
 			}
+			if = {
+				limit = {
+					has_country_flag = SS_Reichskommissariat_War
+				}
+				GER = {
+					set_autonomy = {
+						target = PREV
+						autonomy_state = autonomy_GER_Reichskommissariat
+					}
+				}
+			}
 		}
 	}
 

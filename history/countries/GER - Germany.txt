@@ -200,7 +200,6 @@ if = {
 	set_autonomy = { target = CAT autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = NAV autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = FRA autonomy_state = autonomy_GER_Reichskommissariat }
-	set_autonomy = { target = RKI autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKS autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKO autonomy_state = autonomy_GER_Reichskommissariat }
 	set_autonomy = { target = RKU autonomy_state = autonomy_GER_Reichskommissariat }
@@ -218,6 +217,7 @@ if = {
 	set_autonomy = { target = COG autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = MAD autonomy_state = autonomy_GER_Protektorat }
 	set_autonomy = { target = PAL autonomy_state = autonomy_GER_Protektorat }
+	set_autonomy = { target = RKI autonomy_state = autonomy_GER_Protektorat }
 	else = {
 		puppet = GLC
 		puppet = POR
@@ -265,7 +265,6 @@ add_to_array = { GER_Reich_Reichskommissariats = ADU }
 add_to_array = { GER_Reich_Reichskommissariats = CAT }
 add_to_array = { GER_Reich_Reichskommissariats = NAV }
 add_to_array = { GER_Reich_Reichskommissariats = FRA }
-add_to_array = { GER_Reich_Reichskommissariats = RKI }
 add_to_array = { GER_Reich_Reichskommissariats = RKS }
 add_to_array = { GER_Reich_Reichskommissariats = RKO }
 add_to_array = { GER_Reich_Reichskommissariats = RKU }
@@ -284,6 +283,7 @@ add_to_array = { GER_Reich_Protektorats = CZE }
 add_to_array = { GER_Reich_Protektorats = COG }
 add_to_array = { GER_Reich_Protektorats = MAD }
 add_to_array = { GER_Reich_Protektorats = PAL }
+add_to_array = { GER_Reich_Protektorats = RKI }
 add_to_array = { GER_Reich_Satellites = FIN }
 add_to_array = { GER_Reich_Satellites = SER }
 add_to_array = { GER_Reich_Satellites = ITA }

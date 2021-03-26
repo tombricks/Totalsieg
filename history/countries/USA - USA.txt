@@ -147,6 +147,8 @@ set_popularities = {
 add_ideas = {
 }
 
+set_cosmetic_tag = USA_Reichskommissariat
+
 create_country_leader = {
 	name = "Ernst Kaltenbrunner"
 	desc = ""

@@ -63,6 +63,8 @@ set_popularities = {
 	communism = 10
 }
 
+set_cosmetic_tag = CZE_Protektorat
+
 create_country_leader = {
 	name = "Kurt Daluege"
 	desc = ""

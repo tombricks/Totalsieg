@@ -67,6 +67,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = URL_Protektorat
+
 create_country_leader = {
 	name = "Paul Hausser"
 	desc = ""

@@ -69,6 +69,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = RKI_Protektorat
+
 create_country_leader = {
 	name = "Karl Wolff"
 	desc = ""
