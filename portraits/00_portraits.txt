@@ -53,33 +53,33 @@ continent = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
 	}
@@ -109,33 +109,33 @@ continent = {
 
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-			}
-		}
-		democratic = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		democratic = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
 	}
@@ -164,33 +164,33 @@ continent = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-			}
-		}
-		democratic = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
+			}
+		}
+		democratic = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
 		}
 	}
@@ -220,33 +220,33 @@ continent = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
 	}
@@ -275,47 +275,49 @@ continent = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
 	}
@@ -345,33 +347,33 @@ continent = {
 
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_2.dds" 
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
 			}
 		}
 	}	
@@ -398,33 +400,33 @@ continent = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
 		}
 	}
@@ -733,33 +735,33 @@ RAJ = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic.dds"
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
 			}
 		}
 	}
@@ -776,33 +778,33 @@ PAK = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Army_Generic_2.dds"
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 			}
 		}
 	}
@@ -848,33 +850,33 @@ AFG = {
 	}
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
 			}
 		}
 	}
@@ -981,19 +983,19 @@ GEO = {
 		}
 	}
 	political = {
-		fascism = {
-				male = { 
-					"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+		national_socialism = {
+			male = { 
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 			}
 		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+		fascism = {
+			male = { 
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 			}
 		}
 		neutrality = {
-				male = { 
-					"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			male = { 
+				"gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 			}
 		}
 	}	
@@ -1020,46 +1022,47 @@ BAH = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_2.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"		
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/Africa/Portrait_Africa_Generic_3.dds" 
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+				"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
 			}
 		}
 	}
@@ -1086,33 +1089,33 @@ BLZ = {
 	
 	political = {
 		communism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 			}
 		}
 		democratic = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
-			}
-		}
-		fascism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
-			}
-		}
-		national_socialism = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
-			}
-		}
-		neutrality = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
 			}
 		}
 		libertarian_socialism = {
-				male = { 
-					"gfx/leaders/leader_unknown.dds" 
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_2.dds" 
+			}
+		}
+		fascism = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			}
+		}
+		national_socialism = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+			male = { 
+				"gfx/leaders/South America/Portrait_South_America_Generic_3.dds" 
 			}
 		}
 	}
