@@ -12,6 +12,7 @@ state={
 	provinces={
 		849 8435 13400 13403 13404 13405 13406 13407 13408 13410 13411 13412 13413 13414 13416 13417 13418 13419 13420 13421 13423 
 	}
-	manpower=0
+	manpower=1
+	state_category=wasteland
 	buildings_max_level_factor=1.000
 }

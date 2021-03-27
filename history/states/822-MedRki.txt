@@ -2,12 +2,13 @@ state={
 	id=822
 	name="STATE_822"
 	provinces={
-		5555 
+		5555 13491 13492 13493
 	}
 	history = {
 		owner = RKI
 		add_core_of = RKI
 	}
-	manpower=0
+	manpower=1
+	state_category=wasteland
 	buildings_max_level_factor=1.000
 }

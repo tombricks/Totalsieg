@@ -10,9 +10,8 @@ state= {
 
 	history=
 	{
-		owner = TUR
-		add_core_of = TUR
-		add_core_of = CYP
+		owner = TUN
+		add_core_of = TUN
 		victory_points = {
 			11984 5
 		}
@@ -28,5 +27,5 @@ state= {
 		}
 
 	}
-	provinces= { 7193 11984 }
+	provinces= { 7193 7452 8819 11984 }
 }

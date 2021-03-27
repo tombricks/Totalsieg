@@ -8,6 +8,7 @@ state={
 		owner = FRA
 		add_core_of = FRA
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
