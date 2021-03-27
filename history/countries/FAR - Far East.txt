@@ -68,11 +68,11 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
+
+set_cosmetic_tag = FAR_Governorate
 set_popularities = {
 	fascism =  60
 	neutrality = 35
 	communism = 4
 	democratic = 1
 }
-
-set_cosmetic_tag = FAR_Governorate

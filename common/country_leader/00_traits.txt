@@ -13,6 +13,7 @@ leader_traits = {
 	TITLE_Legislative_Body = { random = no }
 	TITLE_Emperor = { random = no }
 	TITLE_President = { random = no }
+	TITLE_Chairman = { random = no }
 	
 	dictator = {
 		random = no

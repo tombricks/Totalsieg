@@ -13,5 +13,6 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Legislative_Body } localization_key = TITLE_Legislative_Body }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Emperor } localization_key = TITLE_Emperor }
 	text = { trigger = { has_country_leader_with_trait = TITLE_President } localization_key = TITLE_President }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
 	text = { localization_key = TITLE_Leader }
 }
