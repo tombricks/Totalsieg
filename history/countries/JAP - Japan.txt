@@ -148,16 +148,59 @@ if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	set_autonomy = { target = MAN autonomy_state = autonomy_JAP_Puppet }
 	set_autonomy = { target = MEN autonomy_state = autonomy_JAP_Puppet }
+	set_autonomy = { target = CHI autonomy_state = autonomy_JAP_Puppet }
+	set_autonomy = { target = VIN autonomy_state = autonomy_JAP_Puppet }
+	set_autonomy = { target = FAR autonomy_state = autonomy_JAP_Integrated_Puppet }
 	else = {
 		puppet = MEN
 		puppet = MAN
+		puppet = CHI
+		puppet = VIN
+		puppet = FAR
 	}
 }
-create_faction = "Greater Pacific Co-Prosperity Sphere"
+create_faction = JAP_faction
 add_to_faction = MEN
 add_to_array = { JAP_Sphere_of_Influence = MEN }
 add_to_faction = MAN
 add_to_array = { JAP_Sphere_of_Influence = MAN }
+add_to_faction = CHI
+add_to_array = { JAP_Sphere_of_Influence = CHI }
+CHI = {
+	set_popularities = {
+		fascism = 59
+		neutrality = 25
+		communism = 6
+		democratic = 5
+		national_socialism = 4
+		libertarian_socialism = 1
+	}
+	
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+add_to_faction = FAR
+add_to_array = { JAP_Sphere_of_Influence = FAR }
+FAR = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1933.2.16"
+		election_frequency = 36
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism =  60
+		neutrality = 35
+		communism = 4
+		democratic = 1
+	}
+}
+add_to_faction = VIN
+add_to_array = { JAP_Sphere_of_Influence = VIN }
 add_to_faction = PSA
 add_to_array = { JAP_Sphere_of_Influence = PSA }
 

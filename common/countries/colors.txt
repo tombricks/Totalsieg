@@ -148,10 +148,6 @@ CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
 }
-CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
-}
 CHL = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
@@ -187,10 +183,6 @@ HON = {
 IRQ = {
 	color = rgb { 178 114 99 }
 	color_ui = rgb { 231 148 129 }
-}
-JAP = {
-	color = rgb { 130 19 46 }
-	color_ui = rgb { 130 19 46 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -268,10 +260,6 @@ MON = {
 	#color = HSV { 0.1 0.15 0.4 }
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
-}
-MEN = {
-	color = rgb { 185  255  152 }
-	color_ui = rgb { 165  230  132 }
 }
 TAN = {
 	color = rgb { 152 130 191 }
@@ -405,11 +393,6 @@ INS = {
 	color_ui = rgb { 40  50  120 }
 }
 
-VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
-}
-
 CAM = {
 	color = rgb { 100  71  150 }
 	color_ui = rgb { 100  71  150 }
@@ -428,10 +411,6 @@ MNT = {
 BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
-}
-MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
 }
 ANG = {
 	color = rgb { 37 140 61 }
@@ -777,4 +756,29 @@ MAD = {
 PSA = {
 	color = rgb { 70 50 70 }
 	color_ui = rgb { 70 50 70 }
+}
+
+JAP = {
+	color = rgb { 130 19 46 }
+	color_ui = rgb { 130 19 46 }
+}
+MAN = {
+	color = rgb { 172 50 63 }
+	color_ui = rgb { 172 50 63 }
+}
+MEN = {
+	color = rgb { 106 55 51 }
+	color_ui = rgb { 106 55 51 }
+}
+CHI = {
+	color = rgb { 142 0 10 }
+	color_ui = rgb { 142 0 10 }
+}
+FAR = {
+	color = rgb { 130 19 16 }
+	color_ui = rgb { 130 19 16 }
+}
+VIN = {
+	color = rgb { 115 111 40 }
+	color_ui = rgb { 115 111 40 }
 }

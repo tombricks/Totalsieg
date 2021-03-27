@@ -13,7 +13,8 @@ URL	= "countries/western_european.txt" # Militärverwaltung Ural
 RKI	= "countries/western_european.txt" # Reichskommissariat Norditalien
 RKS	= "countries/western_european.txt" # Reichskommissariat Skandinavien
 
-ZZZ = "countries/asian.txt"
+ZZZ = "countries/asian.txt" # Anarchy
+FAR = "countries/asian.txt" # Far Eastern
 
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
