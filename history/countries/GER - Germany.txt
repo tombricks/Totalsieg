@@ -159,7 +159,7 @@ if = {
 
 set_politics = {
 	ruling_party = national_socialism
-	last_election = "1963.1.0"
+	last_election = "1963.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
