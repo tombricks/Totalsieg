@@ -11,6 +11,7 @@ leader_traits = {
 	TITLE_Augustus = { random = no }
 	TITLE_Prime_Minister = { random = no }
 	TITLE_Legislative_Body = { random = no }
+	TITLE_Emperor = { random = no }
 	
 	dictator = {
 		random = no

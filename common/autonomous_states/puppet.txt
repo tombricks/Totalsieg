@@ -40,7 +40,10 @@ autonomy_state = {
 	allowed = {
 		OVERLORD = {
 			NOT = {
-				tag = GER
+				OR = {
+					tag = GER
+					tag = JAP
+				}
 			}
 		}
 	}

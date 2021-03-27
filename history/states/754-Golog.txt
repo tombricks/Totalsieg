@@ -8,10 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = CH3
-		add_core_of = CH3
-		add_core_of = CH3
-		add_core_of = CH3
+		owner = ZZZ
 		victory_points = {
 			12732 3 
 		}
@@ -20,20 +17,6 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 
-		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
-		}
+		} 
 	}
 }

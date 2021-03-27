@@ -3,30 +3,11 @@ state={
 	name="STATE_616"
 
 	history={
-		owner = CH7
-		add_core_of = CH7
-		add_core_of = CH7
-		add_core_of = CH7
+		owner = ZZZ
 		buildings = {
 			infrastructure = 2
 
-		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
+		} 
 
 	}
 

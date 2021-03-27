@@ -7,14 +7,14 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = JAP
+		owner = PSA
 		buildings = {
 			infrastructure = 1
 			10548 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = JAP
+		add_core_of = PSA
 	}
 
 	provinces={

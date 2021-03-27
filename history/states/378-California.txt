@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = PSA
+		add_core_of = PSA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -33,7 +34,6 @@ state={
 			}
 
 		}
-		add_core_of = JAP
 		victory_points = {
 			9814 30 
 		}

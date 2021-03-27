@@ -746,93 +746,9 @@ RKS = {
 	color = rgb { 120 120 120 }
 	color_ui = rgb { 120 120 120 }
 }
-JA1 = {
-	color = rgb { 130 19 46 }
-	color_ui = rgb { 130 19 46 }
-}
-JA2 = {
-	color = rgb { 130 19 46 }
-	color_ui = rgb { 130 19 46 }
-}
-RU1 = {
-	color = rgb { 107 43 43 }
-	color_ui = rgb { 107 43 43 }
-}
-RU2 = {
-	color = rgb { 32 97 107 }
-	color_ui = rgb { 32 97 107 }
-}
-RU3 = {
-	color = rgb { 85 36 97 }
-	color_ui = rgb { 85 36 97 }
-}
-RU4 = {
-	color = rgb { 68 105 91 }
-	color_ui = rgb { 68 105 91 }
-}
-RU5 = {
-	color = rgb { 89 105 68 }
-	color_ui = rgb { 89 105 68 }
-}
-RU6 = {
-	color = rgb { 111 91 50 }
-	color_ui = rgb { 111 91 50 }
-}
-RU7 = {
-	color = rgb { 41 96 117 }
-	color_ui = rgb { 41 96 117 }
-}
-RU8 = {
-	color = rgb { 33 101 76 }
-	color_ui = rgb { 33 101 76 }
-}
-RU9 = {
-	color = rgb { 117 25 77 }
-	color_ui = rgb { 117 25 77 }
-}
-R10 = {
-	color = rgb { 68 25 117 }
-	color_ui = rgb { 68 25 117 }
-}
-SI1 = {
-	color = rgb { 147 141 154 }
-	color_ui = rgb { 147 141 154 }
-}
 ZZZ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
-}
-CH1 = {
-	color = rgb { 124 124 69 }
-	color_ui = rgb { 124 124 69 }
-}
-CH2 = {
-	color = rgb { 135 135 104 }
-	color_ui = rgb { 135 135 104 }
-}
-CH3 = {
-	color = rgb { 110 98 67 }
-	color_ui = rgb { 110 98 67 }
-}
-CH4 = {
-	color = rgb { 130 19 46 }
-	color_ui = rgb { 130 19 46 }
-}
-CH5 = {
-	color = rgb { 122 84 45 }
-	color_ui = rgb { 122 84 45 }
-}
-CH6 = {
-	color = rgb { 110 88 82 }
-	color_ui = rgb { 110 88 82 }
-}
-CH7 = {
-	color = rgb { 115 73 61 }
-	color_ui = rgb { 115 73 61 }
-}
-CH8 = {
-	color = rgb { 112 98 29 }
-	color_ui = rgb { 112 98 29 }
 }
 CAT = {
 	color = rgb { 114 108 113 }
@@ -857,4 +773,8 @@ COG = {
 MAD = {
 	color = rgb { 94 94 93 }
 	color_ui = rgb { 94 94 93 }
+}
+PSA = {
+	color = rgb { 70 50 70 }
+	color_ui = rgb { 70 50 70 }
 }

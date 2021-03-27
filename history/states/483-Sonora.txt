@@ -4,7 +4,8 @@ state={
 	name="STATE_483"
 
 	history={
-		owner = JAP
+		owner = PSA
+		add_core_of = PSA
 		buildings = {
 			infrastructure = 3
 			4908 = {
@@ -13,7 +14,6 @@ state={
 			}
 
 		}
-		add_core_of = JAP
 		victory_points = {
 			10765 5 
 		}

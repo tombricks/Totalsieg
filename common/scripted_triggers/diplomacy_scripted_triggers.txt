@@ -837,6 +837,12 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			value = ROOT
 		}
 	}
+	NOT = {
+		is_in_array = {
+			array = JAP.JAP_Sphere_of_Influence
+			value = ROOT
+		}
+	}
 }
  DIPLOMACY_ASSUME_FACTION_LEADERSHIP_ENABLE_TRIGGER = {
 	if = {
@@ -857,6 +863,12 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			value = ROOT
 		}
 	}
+	NOT = {
+		is_in_array = {
+			array = JAP.JAP_Sphere_of_Influence
+			value = ROOT
+		}
+	}
 }
 DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
 	if = {
@@ -874,6 +886,12 @@ DIPLOMACY_KICK_FROM_FACTION_ENABLE_TRIGGER = {
 	NOT = {
 		is_in_array = {
 			array = GER.GER_Reich_Satellites
+			value = FROM
+		}
+	}
+	NOT = {
+		is_in_array = {
+			array = JAP.JAP_Sphere_of_Influence
 			value = FROM
 		}
 	}

@@ -6,7 +6,8 @@ state={
 		853 1793 8115 10783 11814 12833 
 	}
 	history = {
-		owner = JAP
+		owner = PSA
+		add_core_of = PSA
 		victory_points = {
 			853 3 
 		}

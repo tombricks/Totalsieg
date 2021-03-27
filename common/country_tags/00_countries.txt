@@ -13,33 +13,7 @@ URL	= "countries/western_european.txt" # Militärverwaltung Ural
 RKI	= "countries/western_european.txt" # Reichskommissariat Norditalien
 RKS	= "countries/western_european.txt" # Reichskommissariat Skandinavien
 
-# Russia
-JA1 = "countries/asian.txt"
-JA2 = "countries/asian.txt"
-RU1 = "countries/eastern_european.txt"
-RU2 = "countries/eastern_european.txt"
-RU3 = "countries/eastern_european.txt"
-RU4 = "countries/eastern_european.txt"
-RU5 = "countries/eastern_european.txt"
-RU6 = "countries/eastern_european.txt"
-RU7 = "countries/eastern_european.txt"
-RU8 = "countries/eastern_european.txt"
-RU9 = "countries/eastern_european.txt"
-R10 = "countries/eastern_european.txt"
-SI1 = "countries/asian.txt"
 ZZZ = "countries/asian.txt"
-
-# China
-CH1 = "countries/asian.txt"
-CH2 = "countries/asian.txt"
-CH3 = "countries/asian.txt"
-CH4 = "countries/asian.txt"
-CH5 = "countries/asian.txt"
-CH6 = "countries/asian.txt"
-CH7 = "countries/asian.txt"
-CH8 = "countries/asian.txt"
-
-
 
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Soviet Union.txt"
