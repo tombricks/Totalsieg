@@ -8,22 +8,6 @@ scripted_gui = {
 		properties = {
 		}
 	}
-
-	GER_Satellite_scripted_gui = {
-		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "GER_Satellite_scripted_gui_window"
-
-		properties = {
-		}
-
-		visible = {
-			is_in_array = {
-				array = GER.GER_Reich_Satellites
-				value = ROOT
-			}
-		}
-	}
 	
 }
 

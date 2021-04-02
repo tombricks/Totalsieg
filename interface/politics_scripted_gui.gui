@@ -15,16 +15,4 @@ guiTypes = {
 			vertical_alignment = center
 		}	
 	}
-
-	containerWindowType = {
-		name = "GER_Satellite_scripted_gui_window"
-		position = { x=0 y=0}	
-
-		iconType = {
-			name = "GER_Satellite_Icon"
-			spriteType = "GFX_autonomy_GER_Satellite_icon"
-			position = { x = 420 y = 8 }
-			pdx_tooltip = "GER_Satellite_tt"
-		}
-	}
 }

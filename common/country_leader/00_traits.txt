@@ -1,19 +1,6 @@
 leader_traits = {
 	
-	TITLE_Fuhrer = { random = no }
 	TITLE_Leader = { random = no }
-	TITLE_Reichskommissar = { random = no }
-	TITLE_Governor_General = { random = no }
-	TITLE_Uralverteidigungskommandant = { random = no ai_focus_defense_factor = 0.5 }
-	TITLE_Reichsgouverneur = { random = no }
-	TITLE_Protector = { random = no }
-	TITLE_Reichsbevollmaechtigter = { random = no }
-	TITLE_Augustus = { random = no }
-	TITLE_Prime_Minister = { random = no }
-	TITLE_Legislative_Body = { random = no }
-	TITLE_Emperor = { random = no }
-	TITLE_President = { random = no }
-	TITLE_Chairman = { random = no }
 	
 	dictator = {
 		random = no

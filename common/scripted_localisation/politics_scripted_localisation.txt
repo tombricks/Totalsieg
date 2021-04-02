@@ -1,18 +1,5 @@
 defined_text = {
 	name = GetLeaderTitle
-	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Leader } localization_key = TITLE_Leader }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Reichskommissar } localization_key = TITLE_Reichskommissar }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Governor_General } localization_key = TITLE_Governor_General }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Uralverteidigungskommandant } localization_key = TITLE_Uralverteidigungskommandant }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsgouverneur } localization_key = TITLE_Reichsgouverneur }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Protector } localization_key = TITLE_Protector }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsbevollmaechtigter } localization_key = TITLE_Reichsbevollmaechtigter }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Augustus } localization_key = TITLE_Augustus }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Prime_Minister } localization_key = TITLE_Prime_Minister }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Legislative_Body } localization_key = TITLE_Legislative_Body }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Emperor } localization_key = TITLE_Emperor }
-	text = { trigger = { has_country_leader_with_trait = TITLE_President } localization_key = TITLE_President }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
 	text = { localization_key = TITLE_Leader }
 }
