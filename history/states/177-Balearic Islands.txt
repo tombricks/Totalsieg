@@ -1,0 +1,24 @@
+state=
+{
+	id=177
+	name="STATE_177"
+	manpower = 365500
+	
+	state_category = rural
+	
+	history=
+	{
+		victory_points = {
+			9793 1
+		}
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+		}
+		add_core_of = SPR
+	}
+	provinces=
+	{
+5505 5454 7114 8845 8871 9793 9845 13502 13503 13504 13505 13506 13507 13508 13509 13510 13511 13513 13515 13516 13517 13518 13519 13520 13521 13523 13524 13525 13527 13528 13512 13514 13522 13526 13529 13530 13532 13547 13549 	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=809
+	name="STATE_809" #
+	manpower = 1
+	state_category = wasteland
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		13436 13437 13438 13439 13440 13441 13442 13443 13444 13445
+	}
+}

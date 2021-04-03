@@ -1,0 +1,31 @@
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 347959
+	
+	state_category = rural
+	resources={
+		chromium=3 # was: 4
+	}
+
+	history=
+	{
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			11984 5
+		}
+		victory_points = {
+			7193 3
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			7193 = {
+				naval_base = 2
+			}
+		}
+
+	}
+	provinces= { 5479 5985 6219 6419 6608 6801 7002 7193 7226 7452 8819 11984 13533 13535 13536 13537 13538 13539 13540 13541 13542 13543 13548 }
+}
