@@ -1,0 +1,46 @@
+scripted_gui = {
+
+	factions_scripted_gui = {
+		context_type = player_context
+		window_name = "factions_scripted_gui_window"
+		parent_window_token = politics_tab
+
+		properties = {
+		}
+
+		visible = {
+			always = no
+			clear_temp_array = AllParties
+			all_of = {
+				array = CommunistParties
+				value = v
+				
+				add_to_temp_array = { AllParties = v }
+			}
+			all_of = {
+				array = DemocraticParties
+				
+				add_to_temp_array = { AllParties = v }
+			}
+			all_of = {
+				array = AuthoritarianParties
+				
+				add_to_temp_array = { AllParties = v }
+			}
+			all_of = {
+				array = FascistParties
+				
+				add_to_temp_array = { AllParties = v }
+			}
+		}
+
+		dynamic_lists = {
+			factions_grid = {
+				array = AllParties
+				entry_container = faction_entry
+			}
+		}
+	}
+	
+}
+

@@ -3,3 +3,15 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Leader } localization_key = TITLE_Leader }
 	text = { localization_key = TITLE_Leader }
 }
+
+defined_text = {
+	name = GetPoliticalFactionName
+	text = { trigger = { check_variable = { v = 1 } } localization_key = "NSDAP" }
+	text = { trigger = { check_variable = { v = 2 } } localization_key = "NSDAP-SS" }
+	text = { trigger = { check_variable = { v = 3 } } localization_key = "DNVP" }
+	text = { trigger = { check_variable = { v = 4 } } localization_key = "OKW" }
+	text = { trigger = { check_variable = { v = 5 } } localization_key = "Zentrum" }
+	text = { trigger = { check_variable = { v = 6 } } localization_key = "DDP" }
+	text = { trigger = { check_variable = { v = 7 } } localization_key = "SPD" }
+	text = { trigger = { check_variable = { v = 8 } } localization_key = "KPD" }
+}
