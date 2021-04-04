@@ -61,7 +61,7 @@ guiTypes = {
 
 	        background = {
 	            name = "Background"        
-	            quadTextureSprite ="GFX_tiled_bg_1_scrollbar"
+	            quadTextureSprite ="GFX_tiled_bg"
 	        }
 		
 	        gridBoxType = {

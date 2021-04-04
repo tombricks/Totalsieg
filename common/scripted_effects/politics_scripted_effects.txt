@@ -1,0 +1,29 @@
+generate_allparties = {
+	clear_array = AllParties
+	for_each_loop = {
+		array = CommunistParties
+		value = v
+		
+		add_to_array = { AllParties = v }
+	}
+	for_each_loop = {
+		array = DemocraticParties
+		
+		add_to_array = { AllParties = v }
+	}
+	for_each_loop = {
+		array = AuthoritarianParties
+		
+		add_to_array = { AllParties = v }
+	}
+	for_each_loop = {
+		array = FascistParties
+		
+		add_to_array = { AllParties = v }
+	}
+}
+
+d_add_faction_test = {
+	add_to_array = { ROOT.FascistParties = 1 }
+	generate_allparties = yes
+}
