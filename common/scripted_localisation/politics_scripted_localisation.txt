@@ -6,12 +6,33 @@ defined_text = {
 
 defined_text = {
 	name = GetPoliticalFactionName
-	text = { trigger = { check_variable = { v = 1 } } localization_key = "NSDAP" }
-	text = { trigger = { check_variable = { v = 2 } } localization_key = "NSDAP-SS" }
-	text = { trigger = { check_variable = { v = 3 } } localization_key = "DNVP" }
-	text = { trigger = { check_variable = { v = 4 } } localization_key = "OKW" }
-	text = { trigger = { check_variable = { v = 5 } } localization_key = "Zentrum" }
-	text = { trigger = { check_variable = { v = 6 } } localization_key = "DDP" }
-	text = { trigger = { check_variable = { v = 7 } } localization_key = "SPD" }
-	text = { trigger = { check_variable = { v = 8 } } localization_key = "KPD" }
+	text = { trigger = { check_variable = { v = 1 } } localization_key = "NSDAP_name" }
+	text = { trigger = { check_variable = { v = 2 } } localization_key = "NSDAPSS_name" }
+	text = { trigger = { check_variable = { v = 3 } } localization_key = "DNVP_name" }
+	text = { trigger = { check_variable = { v = 4 } } localization_key = "OKW_name" }
+	text = { trigger = { check_variable = { v = 5 } } localization_key = "Zentrum_name" }
+	text = { trigger = { check_variable = { v = 6 } } localization_key = "DDP_name" }
+	text = { trigger = { check_variable = { v = 7 } } localization_key = "SPD_name" }
+	text = { trigger = { check_variable = { v = 8 } } localization_key = "KPD_name" }
+}
+
+defined_text = {
+	name = GetPoliticalFactionNameLong
+	text = { trigger = { check_variable = { v = 1 } } localization_key = "NSDAP_name_long" }
+	text = { trigger = { check_variable = { v = 2 } } localization_key = "NSDAPSS_name_long" }
+	text = { trigger = { check_variable = { v = 3 } } localization_key = "DNVP_name_long" }
+	text = { trigger = { check_variable = { v = 4 } } localization_key = "OKW_name_long" }
+	text = { trigger = { check_variable = { v = 5 } } localization_key = "Zentrum_name_long" }
+	text = { trigger = { check_variable = { v = 6 } } localization_key = "DDP_name_long" }
+	text = { trigger = { check_variable = { v = 7 } } localization_key = "SPD_name_long" }
+	text = { trigger = { check_variable = { v = 8 } } localization_key = "KPD_name_long" }
+}
+
+defined_text = {
+	name = GetPoliticalFactionIdeologyColour
+	text = { trigger = { is_in_array = { array = CommunistParties value = v } } localization_key = "party_communist_colour" }
+	text = { trigger = { is_in_array = { array = DemocraticParties value = v } } localization_key = "party_democratic_colour" }
+	text = { trigger = { is_in_array = { array = AuthoritarianParties value = v } } localization_key = "party_authoritarian_colour" }
+	text = { trigger = { is_in_array = { array = FascistParties value = v } } localization_key = "party_fascist_colour" }
+	text = { localization_key = "party_unknown_colour" }
 }

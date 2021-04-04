@@ -14,8 +14,8 @@ guiTypes = {
 		gridBoxType = {
 			name = "factions_grid"
 			position = { x = 24 y = 4 }
-			size = { width = 100%% height = 100%% }
-			slotsize = { width = 100%% height = 24 }
+			size = { width = 600 height = 100%% }
+			slotsize = { width = 600 height = 24 }
 			format = "UPPER_LEFT"
 			max_slots_horizontal = 1
 		}
@@ -28,10 +28,10 @@ guiTypes = {
 			name = "name"
 			position = { x = 0 y = 14 }
 			font = "hoi_20b"
-			text = "[This.GetPoliticalFactionName]"
-			pdx_tooltip = "[This.GetPoliticalFactionNameLong]"
-			pdx_tooltip_delayed = "[This.GetPoliticalFactionNameLong]\n\n-----\n\ndoin your mum"
-			maxWidth = 100%%
+			text = "party_text"
+			pdx_tooltip = "party_tooltip"
+			pdx_tooltip_delayed = "party_tooltip_delayed"
+			maxWidth = 600
 			maxHeight = 20
 		}
 	}
