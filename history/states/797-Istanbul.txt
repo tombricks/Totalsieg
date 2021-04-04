@@ -2,7 +2,7 @@ state={
 	id=797
 	name="STATE_797"
 	provinces={
-		5412 9833 11829 13425
+		9833 11829 13425
 	}
 	manpower = 1042276
 	resources={

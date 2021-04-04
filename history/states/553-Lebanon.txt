@@ -15,15 +15,12 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 5
-			792 = {
-				naval_base = 3
-			}
 		}
 
 		add_core_of = LEB
 	}
 
 	provinces={
-		792 1108 11919 
+		792 1108 11919 13309 13317 13321 13324
 	}
 }

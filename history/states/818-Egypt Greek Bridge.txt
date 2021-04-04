@@ -1,0 +1,19 @@
+state={
+	id=818
+	name="STATE_818" #
+	manpower = 1
+	state_category = wasteland
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		13275 13277 13288 13290 13293 13296 13301 13303 13304 13306 13307 13310 13314 13316 13322 13329 13332
+	}
+}
