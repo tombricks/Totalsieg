@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "TOTALSIEG_NAME"
 		desc = "TOTALSIEG_DESC"
-		date = 1963.5.3.12
+		date = 1983.1.1.12
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 
@@ -13,15 +13,6 @@ bookmarks = {
 			}
 			focuses = {
 			}
-		}
-		
-		JAP = {
-			history = JAP_TOTALSIEG_DESC
-			ideology = fascism
-			ideas={
-			}	
-			focuses = {
-			}		
 		}
 
 		"---"={

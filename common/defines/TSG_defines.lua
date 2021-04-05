@@ -1,4 +1,4 @@
-NDefines.NGame.START_DATE = "1963.1.1.12"
-NDefines.NGame.END_DATE = "1981.1.1.12"
+NDefines.NGame.START_DATE = "1983.1.1.12"
+NDefines.NGame.END_DATE = "1995.1.1.12"
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 1
 NDefines_Graphics.NFrontend.NEW_GAME_BUTTON_DISABLE_DELAY_ON_INVALID_MAP_DATA = 0.5
