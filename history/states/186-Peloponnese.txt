@@ -20,15 +20,6 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			11965 = {
-				naval_base = 1
-
-			}
-			7211 = {
-				naval_base = 2
-
-			}
-
 		}
 		add_core_of = GRE
 

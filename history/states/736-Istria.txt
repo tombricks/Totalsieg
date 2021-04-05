@@ -15,11 +15,6 @@ state={
 		add_claim_by = ITA
 		buildings = {
 			infrastructure = 2
-			6626 = {
-				naval_base = 5
-
-			}
-
 		}
 
 	}
