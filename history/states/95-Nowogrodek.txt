@@ -1,10 +1,11 @@
+
 state={
 	id=95
 	name="STATE_95"
 
 	history={
 		victory_points = {
-			9304 1
+			9304 1 
 		}
 		owner = BLR
 		add_core_of = BLR
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		318 3281 3366 3393 6359 6413 9236 9304 9359 11341 13206 
+		318 3281 3309 3366 3393 3556 6280 6306 6359 6413 9236 9304 9359 11285 11341 13206 
 	}
 	manpower=1598900
 	buildings_max_level_factor=1.000
