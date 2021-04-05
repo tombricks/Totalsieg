@@ -14,5 +14,11 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}	
+		
+		buttonType = {
+			name = "factions_button"
+			position = { x = 512 y = 309 }
+			quadTextureSprite ="GFX_zoom_in"
+		}
 	}
 }

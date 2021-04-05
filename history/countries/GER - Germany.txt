@@ -309,6 +309,7 @@ add_to_array = { DemocraticParties = 5 } # Conservatives
 add_to_array = { DemocraticParties = 6 } # Liberals
 add_to_array = { DemocraticParties = 7 } # Socialists
 add_to_array = { CommunistParties = 8 } # KPD
+generate_allparties = yes
 
 create_faction = Axis
 add_to_faction = GER

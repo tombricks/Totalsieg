@@ -6,6 +6,23 @@ scripted_gui = {
 		window_name = "politics_scripted_gui_window"
 
 		properties = {
+			factions_button = {
+				image = "[This.FactionsUiButton]"
+			}
+		}
+
+		effects = {
+			factions_button_click = {
+				if = {
+					limit = {
+						has_country_flag = show_factions_ui
+					}
+					clr_country_flag = show_factions_ui
+					else = {
+						set_country_flag = show_factions_ui
+					}
+				}
+			}
 		}
 	}
 	

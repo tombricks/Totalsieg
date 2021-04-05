@@ -17,7 +17,7 @@
  KPD_name_long: "Kommunistische Partei Deutschlands"
  party_tooltip: "[This.GetPoliticalFactionNameLong]"
  party_tooltip_delayed: "Template"
- party_text: "[This.GetPoliticalFactionIdeologyColour][This.GetPoliticalFactionName]§!"
+ party_text: "[This.GetPoliticalFactionIdeologyColour][This.GetPoliticalFactionName] - [This.GetPoliticalFactionIdeology]§!"
  party_communist_colour: "§R"
  party_democratic_colour: "§C"
  party_authoritarian_colour: "§g"
