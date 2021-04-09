@@ -11,6 +11,13 @@ scripted_gui = {
 			}
 		}
 
+		triggers = {
+			factions_button_visible = {
+				is_debug = yes
+				has_country_flag = political_factions
+			}
+		}
+
 		effects = {
 			factions_button_click = {
 				if = {
