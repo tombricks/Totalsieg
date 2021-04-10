@@ -1,3 +1,8 @@
+BLR_GER = {
+	color = rgb { 124 124 124 }
+	color_ui = rgb { 124 124 124 }
+}
+
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }

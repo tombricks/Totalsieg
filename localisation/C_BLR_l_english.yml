@@ -1,0 +1,41 @@
+﻿### Greater German Reich ###
+l_english:
+### Basic Cosmetics ###
+ BLR_fascism: "Ostland State"
+ BLR_fascism_DEF: "The Ostland State"
+ BLR_fascism_ADJ: "Ostland"
+ BLR_fascism_party: "ORNO"
+ BLR_fascism_party_long: "Ostland Revolutionary Nationalist Organistation"
+
+ BLR_neutrality: "Republic of Ostland"
+ BLR_neutrality_DEF: "The Republic of Ostland"
+ BLR_neutrality_ADJ: "Ostland"
+ BLR_neutrality_party: "OPP"
+ BLR_neutrality_party_long: "Ostland People's Party"
+
+ BLR_democratic: "Eastern European Federation"
+ BLR_democratic_DEF: "The Eastern European Federation"
+ BLR_democratic_ADJ: "Eastern European"
+ BLR_democratic_party: "ED"
+ BLR_democratic_party_long: "Eastern Democrats"
+
+ BLR_communism: "Eastern Workers Republic"
+ BLR_communism_DEF: "The Eastern Workers Republic"
+ BLR_communism_ADJ: "Eastern European"
+ BLR_communism_party: "UCPBLLE"
+ BLR_communism_party_long: "United Communist Party of Belorussia, Lithuania, Latvia and Estonia"
+
+ BLR: "Ostland"
+ BLR_DEF: "Ostland"
+ BLR_ADJ: "Ostland"
+
+### Cosmetics ###
+ BLR_GER_fascism: "Nebenland Ostland"
+ BLR_GER_fascism_DEF: "Das Nebenland Ostland"
+ BLR_GER_fascism_ADJ: "Ostland"
+ BLR_GER_party: "NSDAP-OA"
+ BLR_GER_party_long: "Nationalsozialistische Deutsche Arbeiterpartei - Ostlandabteilung"
+
+### Political Factions ###
+
+### Diplomacy ###

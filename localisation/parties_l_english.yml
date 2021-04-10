@@ -556,10 +556,6 @@
  ARM_democratic_party:0 "Armenian Revolutionary Federation" #or ARF 
  ARM_communism_party:0 "Communist Party of Armenia"
  ARM_neutrality_party:0 "Central Authority"
- BLR_fascism_party:0 "Belarusian Central Council"
- BLR_democratic_party:0 "Belarusian Christian Democracy"
- BLR_communism_party:0 "Communist Party of Belarus"
- BLR_neutrality_party:0 "Belarusian Socialist Assembly"
  PAK_democratic_party:0 "Ganatantri Dal"
  PAK_communism_party:0 "Pakistan Socialist Party"
  PAK_neutrality_party:0 "Muslim League"
