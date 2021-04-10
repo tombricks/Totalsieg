@@ -188,12 +188,12 @@ add_to_faction = SWE
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
-	set_autonomy = { target = DEN autonomous_state = autonomy_reichskommissariat }
-	set_autonomy = { target = BLR autonomous_state = autonomy_reichskommissariat }
-	set_autonomy = { target = UKR autonomous_state = autonomy_reichsprotectorate }
-	set_autonomy = { target = GEO autonomous_state = autonomy_reichsprotectorate }
-	set_autonomy = { target = SLO autonomous_state = autonomy_satellite }
-	set_autonomy = { target = NOR autonomous_state = autonomy_satellite }
+	set_autonomy = { target = DEN autonomous_state = autonomy_GER_Nebenland }
+	set_autonomy = { target = BLR autonomous_state = autonomy_GER_Nebenland }
+	set_autonomy = { target = UKR autonomous_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = GEO autonomous_state = autonomy_GER_Reichskommissariat }
+	set_autonomy = { target = SLO autonomous_state = autonomy_GER_Satellite }
+	set_autonomy = { target = NOR autonomous_state = autonomy_GER_Satellite }
 	else = {
 		puppet = DEN
 		puppet = BLR

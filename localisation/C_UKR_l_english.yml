@@ -1,0 +1,41 @@
+﻿### Greater German Reich ###
+l_english:
+### Basic Cosmetics ###
+ UKR_fascism: "Ukrainian National Government"
+ UKR_fascism_DEF: "The Ukrainian National Government"
+ UKR_fascism_ADJ: "Ukrainian"
+ UKR_fascism_party: "OUN"
+ UKR_fascism_party_long: "Organisation of Ukrainian Nationalists"
+
+ UKR_neutrality: "Ukrainian People's Republic"
+ UKR_neutrality_DEF: "The Ukrainian People's Republic"
+ UKR_neutrality_ADJ: "Ukrainian"
+ UKR_neutrality_party: "PNU"
+ UKR_neutrality_party_long: "Ukrainian National Party"
+
+ UKR_democratic: "Republic of Ukraine"
+ UKR_democratic_DEF: "The Republic of Ukraine"
+ UKR_democratic_ADJ: "Ukrainian"
+ UKR_democratic_party: "UDP"
+ UKR_democratic_party_long: "Ukrainian Democratic Party"
+
+ UKR_communism: "Ukrainian Soviet Socialist Republic"
+ UKR_communism_DEF: "The Ukrainian Soviet Socialist Republic"
+ UKR_communism_ADJ: "Ukrainian"
+ UKR_communism_party: "KPU"
+ UKR_communism_party_long: "Communist Party of Ukraine"
+
+ UKR: "Ukraine"
+ UKR_DEF: "Ukraine"
+ UKR_ADJ: "Ukrainian"
+
+### Cosmetics ###
+ UKR_GER_fascism: "Reichskommissariat Ukraine"
+ UKR_GER_fascism_DEF: "Das Reichskommissariat Ukraine"
+ UKR_GER_fascism_ADJ: "Ukrainian"
+ UKR_GER_party: "AOdNSDAP"
+ UKR_GER_party_long: "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+
+### Political Factions ###
+
+### Diplomacy ###

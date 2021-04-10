@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = autonomy_satellite
+	id = autonomy_GER_Satellite
 	
 	min_freedom_level = 0.80
 	
@@ -33,13 +33,7 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Death or Dishonor"
-		has_government = fascism
-		if = {
-			limit = { has_dlc = "Waking the Tiger" }
-			NOT = { OVERLORD = { original_tag = JAP } }
-			NOT = { OVERLORD = { original_tag = MAN } }
-		}
+		is_subject_of = GER
 	}
 	
 	can_take_level = {

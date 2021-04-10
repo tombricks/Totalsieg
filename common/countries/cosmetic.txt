@@ -1,3 +1,8 @@
+UKR_GER = {
+	color = rgb { 74 79 84 }
+	color_ui = rgb { 74 79 84 }
+}
+
 BLR_GER = {
 	color = rgb { 124 124 124 }
 	color_ui = rgb { 124 124 124 }
