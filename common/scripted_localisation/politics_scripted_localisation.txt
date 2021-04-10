@@ -1,6 +1,7 @@
 defined_text = {
 	name = GetLeaderTitle
 	text = { trigger = { has_country_leader_with_trait = TITLE_Leader } localization_key = TITLE_Leader }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
 	text = { localization_key = TITLE_Leader }
 }
 

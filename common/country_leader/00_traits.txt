@@ -1,6 +1,7 @@
 leader_traits = {
 	
 	TITLE_Leader = { random = no }
+	TITLE_Fuhrer = { random = no }
 	
 	dictator = {
 		random = no
