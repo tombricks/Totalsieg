@@ -1,0 +1,41 @@
+﻿### Greater German Reich ###
+l_english:
+### Basic Cosmetics ###
+ GEO_fascism: "Transcaucasian Empire"
+ GEO_fascism_DEF: "The Transcaucasian Empire"
+ GEO_fascism_ADJ: "Transcaucasian"
+ GEO_fascism_party: ""
+ GEO_fascism_party_long: ""
+
+ GEO_neutrality: "Transcaucasian Democratic Federative Republic"
+ GEO_neutrality_DEF: "The Transcaucasian Democratic Federative Republic"
+ GEO_neutrality_ADJ: "Transcaucasian"
+ GEO_neutrality_party: ""
+ GEO_neutrality_party_long: ""
+
+ GEO_democratic: "Transcaucasian Federation"
+ GEO_democratic_DEF: "The Transcaucasian Federation"
+ GEO_democratic_ADJ: "Transcaucasian"
+ GEO_democratic_party: ""
+ GEO_democratic_party_long: ""
+
+ GEO_communism: "Transcaucasian Socialist Federative Soviet Republic"
+ GEO_communism_DEF: "The Transcaucasian Socialist Federative Soviet Republic"
+ GEO_communism_ADJ: "Transcaucasian"
+ GEO_communism_party: "AFCPT"
+ GEO_communism_party_long: "All-Federation Communist Party of Transcaucasia"
+
+ GEO: "Transcaucasia"
+ GEO_DEF: "Transcaucasia"
+ GEO_ADJ: "Transcaucasian"
+
+### Cosmetics ###
+ GEO_GER_fascism: "Reichskommissariat Kaukasus"
+ GEO_GER_fascism_DEF: "Das Reichskommissariat Kaukasus"
+ GEO_GER_fascism_ADJ: "Kaukasus"
+ GEO_GER_party: "AOdNSDAP"
+ GEO_GER_party_long: "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+
+### Political Factions ###
+
+### Diplomacy ###
