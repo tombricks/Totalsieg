@@ -1,0 +1,27 @@
+defined_text = {
+	name = MOON_WAR_Highlight
+	text = {
+		trigger = {
+			MOON_WAR_Border = yes
+		}
+
+		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Highlighted"
+	}
+
+	text = {
+		localization_key = "GFX_MOON_WAR_Terrain_Tiles"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Owner_Icon
+	text = {
+		trigger = {
+			check_variable = { MOON_WAR_CONTROLLER_MAP^i = GER }
+		}
+		localization_key = "GFX_autonomy_GER_Nebenland_icon"
+	}
+	text = {
+		localization_key = ""
+	}
+}

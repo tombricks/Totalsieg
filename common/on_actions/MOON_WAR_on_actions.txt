@@ -1,0 +1,21 @@
+### MOON WAR
+## What are the arrays?
+# MOON_WAR_TERRAIN_MAP - Number - Contains the terrain information. Should be the default array if you need to loop through the map in general.
+# MOON_WAR_CONTROLLER_MAP - Country Tag / Number - Contains the owner. Number should be used in special cases only like no owner being 0.
+
+on_actions = {
+	on_startup = {
+		effect = {
+			resize_array = {
+				array = MOON_WAR_TERRAIN_MAP
+				value = 1
+				size = 64
+			}
+			resize_array = {
+				array = MOON_WAR_CONTROLLER_MAP
+				value = 0
+				size = 64
+			}
+		}
+	}
+}

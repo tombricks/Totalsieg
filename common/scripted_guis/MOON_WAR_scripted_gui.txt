@@ -1,0 +1,93 @@
+scripted_gui = {
+
+	MOON_WAR_scripted_gui = {
+		context_type = player_context
+		window_name = "MOON_WAR_Window"
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			MOON_WAR_Tile = {
+				frame = v
+				x = x_offset
+				image = "[This.MOON_WAR_Highlight]"
+			}
+
+			id_text = {
+				x = id_x_offset
+			}
+
+			MOON_WAR_Owner = {
+				x = id_owner_offset
+				image = "[This.MOON_WAR_Owner_Icon]"
+			}
+		}
+
+		dynamic_lists = {
+			MOON_WAR_Map_Grid = {
+				array = Global.MOON_WAR_TERRAIN_MAP
+				entry_container = "MOON_WAR_Tile_Entry"
+				value = v
+				index = i
+			}
+		}
+
+		effects = {
+			MOON_WAR_Tile_click = {
+				set_variable = { MOON_WAR_Selected = i }
+			}
+		}
+
+		triggers = {
+			id_text_visible = {
+			}
+			
+			MOON_WAR_Tile_visible = {
+				if = {
+					limit = {
+						set_temp_variable = { TARGET_OFFSET = i }
+						MOON_WAR_Offset_Trigger = yes
+					}
+					set_temp_variable = { x_offset = 48 }
+					
+					else = {
+						set_temp_variable = { x_offset = 0 }
+					}
+				}
+			}
+			
+			id_text_visible = {
+				if = {
+					limit = { 
+						set_temp_variable = { TARGET_OFFSET = i }
+						MOON_WAR_Offset_Trigger = yes
+					}
+					set_temp_variable = { id_x_offset = 64 }
+					
+					else = {
+						set_temp_variable = { id_x_offset = 32 }
+					}
+				}
+				has_country_flag = MOON_WAR_DEBUG
+			}
+			
+			MOON_WAR_Owner_visible = {
+				if = {
+					limit = { 
+						set_temp_variable = { TARGET_OFFSET = i }
+						MOON_WAR_Offset_Trigger = yes
+					}
+					set_temp_variable = { id_owner_offset = 80 }
+					
+					else = {
+						set_temp_variable = { id_owner_offset = 32 }
+					}
+				}
+			}
+		}
+	}
+	
+}
+

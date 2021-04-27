@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_MOON_WAR_Terrain_Tiles"
+		texturefile = "gfx/interface/MOON_WAR/Terrain_Tiles.tga"
+		transparencecheck = yes
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_MOON_WAR_Terrain_Tiles_Highlighted"
+		texturefile = "gfx/interface/MOON_WAR/Terrain_Tiles_Highlighted.tga"
+		transparencecheck = yes
+		noOfFrames = 1
+	}
+}

@@ -1,0 +1,118 @@
+MOON_WAR_Offset_Trigger = {
+	OR = {
+		AND = {
+			check_variable = { TARGET_OFFSET > 7} check_variable = { TARGET_OFFSET < 16 }
+		}
+		AND = {
+			check_variable = { TARGET_OFFSET > 23 } check_variable = { TARGET_OFFSET < 32 }
+		}
+		AND = {
+			check_variable = { TARGET_OFFSET > 39 } check_variable = { TARGET_OFFSET < 48 }
+		}
+		AND = {
+			check_variable = { TARGET_OFFSET > 55 } check_variable = { TARGET_OFFSET < 64 }
+		}
+	} 
+}
+
+MOON_WAR_Border = {
+	OR = {
+		AND = {
+			check_variable = { MOON_WAR_Selected = i }
+		}
+		AND = {
+			set_temp_variable = { TARGET = MOON_WAR_Selected }
+			add_to_temp_variable = { TARGET = -16 }
+			check_variable = { TARGET = i }
+		}
+		AND = {
+			set_temp_variable = { TARGET = MOON_WAR_Selected }
+			add_to_temp_variable = { TARGET = 16 }
+			check_variable = { TARGET = i }
+		}
+		AND = {
+			set_temp_variable = { TARGET_OFFSET = MOON_WAR_Selected }
+			MOON_WAR_Offset_Trigger = yes
+			OR = {
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = -8 }
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = -7 }
+					NOT = {
+						OR = {
+							check_variable = { MOON_WAR_Selected = 15 }
+							check_variable = { MOON_WAR_Selected = 31 }
+							check_variable = { MOON_WAR_Selected = 47 }
+							check_variable = { MOON_WAR_Selected = 63 }
+						}
+					}
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = 8 }
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = 9 }
+					NOT = {
+						OR = {
+							check_variable = { MOON_WAR_Selected = 15 }
+							check_variable = { MOON_WAR_Selected = 31 }
+							check_variable = { MOON_WAR_Selected = 47 }
+							check_variable = { MOON_WAR_Selected = 63 }
+						}
+					}
+					check_variable = { TARGET = i }
+				}
+			}
+		}
+		AND = {
+			set_temp_variable = { TARGET_OFFSET = MOON_WAR_Selected }
+			MOON_WAR_Offset_Trigger = no
+			OR = {
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = -9 }
+					NOT = {
+						OR = {
+							check_variable = { MOON_WAR_Selected = 0 }
+							check_variable = { MOON_WAR_Selected = 16 }
+							check_variable = { MOON_WAR_Selected = 32 }
+							check_variable = { MOON_WAR_Selected = 48 }
+						}
+					}
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = -8 }
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = 7 }
+					NOT = {
+						OR = {
+							check_variable = { MOON_WAR_Selected = 0 }
+							check_variable = { MOON_WAR_Selected = 16 }
+							check_variable = { MOON_WAR_Selected = 32 }
+							check_variable = { MOON_WAR_Selected = 48 }
+						}
+					}
+					check_variable = { TARGET = i }
+				}
+				AND = {
+					set_temp_variable = { TARGET = MOON_WAR_Selected }
+					add_to_temp_variable = { TARGET = 8 }
+					check_variable = { TARGET = i }
+				}
+			}
+		}
+	}
+}
