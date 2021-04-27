@@ -1,19 +1,22 @@
+
 state={
 	id=818
-	name="STATE_818" #
-	manpower = 1
-	state_category = wasteland
+	name="STATE_818"
 
 	history={
-		owner = ITA
-		add_core_of = ITA
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
+
 		}
 
 	}
 
 	provinces={
-		13275 13277 13288 13290 13293 13296 13301 13303 13304 13306 13307 13310 13314 13316 13322 13329 13332
+		13275 13277 13288 13296 13303 13306 13307 13310 13314 
 	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

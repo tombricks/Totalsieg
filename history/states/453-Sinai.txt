@@ -8,7 +8,8 @@ state={
 	
 	
 	history = {
-		owner = ENG
+		owner = PAL
+		add_core_of = PAL
 		buildings = {
 			infrastructure = 2
 		}
@@ -19,8 +20,6 @@ state={
 		victory_points = {
 			10099 1
 		}
-
-		add_core_of = EGY
 
 	}
 
