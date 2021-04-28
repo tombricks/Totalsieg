@@ -23,6 +23,10 @@ scripted_gui = {
 				x = id_owner_offset
 				image = "[This.MOON_WAR_Owner_Icon]"
 			}
+
+			MOON_WAR_Debug_Button = {
+				image = "[This.MOON_WAR_Debug_Button]"
+			}
 		}
 
 		dynamic_lists = {
@@ -37,6 +41,19 @@ scripted_gui = {
 		effects = {
 			MOON_WAR_Tile_click = {
 				set_variable = { MOON_WAR_Selected = i }
+			}
+
+			MOON_WAR_Debug_Button_click = {
+				if = {
+					limit = {
+						has_country_flag = MOON_WAR_DEBUG
+					}
+					clr_country_flag = MOON_WAR_DEBUG
+					else = {
+						set_country_flag = MOON_WAR_DEBUG
+					}
+				}
+				set_variable = { MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER }
 			}
 		}
 

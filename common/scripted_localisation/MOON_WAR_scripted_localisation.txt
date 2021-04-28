@@ -2,6 +2,14 @@ defined_text = {
 	name = MOON_WAR_Highlight
 	text = {
 		trigger = {
+			check_variable = { i = MOON_WAR_Selected }
+		}
+
+		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Selected"
+	}
+
+	text = {
+		trigger = {
 			MOON_WAR_Border = yes
 		}
 
@@ -19,9 +27,22 @@ defined_text = {
 		trigger = {
 			check_variable = { MOON_WAR_CONTROLLER_MAP^i = GER }
 		}
-		localization_key = "GFX_autonomy_GER_Nebenland_icon"
+		localization_key = "GFX_MOON_WAR_Controller_GER"
 	}
 	text = {
-		localization_key = ""
+		localization_key = "GFX_MOON_WAR_Controller_NONE"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Debug_Button
+	text = {
+		trigger = {
+			has_country_flag = MOON_WAR_DEBUG
+		}
+		localization_key = "GFX_zoom_out"
+	}
+	text = {
+		localization_key = "GFX_zoom_in"
 	}
 }

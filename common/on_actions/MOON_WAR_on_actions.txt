@@ -16,6 +16,15 @@ on_actions = {
 				value = 0
 				size = 64
 			}
+			set_variable = { MOON_WAR_CONTROLLER_MAP^21 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^13 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^5 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^12 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^4 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^20 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^27 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^11 = GER }
+			set_variable = { MOON_WAR_CONTROLLER_MAP^3 = GER }
 		}
 	}
 }

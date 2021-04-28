@@ -21,6 +21,12 @@ guiTypes = {
 			max_slots_horizontal = 8
 			max_slots_vertical = 8
 		}
+		buttonType = {
+			name = "MOON_WAR_Debug_Button"
+			spriteType = "GFX_zoom_out"
+			orientation = UPPER_RIGHT
+			position = { x = -32 y = 0 }
+		}
 	}
 	
 	
