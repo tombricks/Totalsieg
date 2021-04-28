@@ -53,7 +53,7 @@ scripted_gui = {
 						set_country_flag = MOON_WAR_DEBUG
 					}
 				}
-				set_variable = { MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER }
+				set_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER }
 			}
 		}
 

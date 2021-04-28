@@ -25,7 +25,7 @@ defined_text = {
 	name = MOON_WAR_Owner_Icon
 	text = {
 		trigger = {
-			check_variable = { MOON_WAR_CONTROLLER_MAP^i = GER }
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = GER }
 		}
 		localization_key = "GFX_MOON_WAR_Controller_GER"
 	}
