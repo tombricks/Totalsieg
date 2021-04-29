@@ -24,8 +24,16 @@ scripted_gui = {
 				image = "[This.MOON_WAR_Owner_Icon]"
 			}
 
+			MOON_WAR_Status = {
+				x = id_owner_offset
+			}
+
 			MOON_WAR_Debug_Button = {
 				image = "[This.MOON_WAR_Debug_Button]"
+			}
+
+			MOON_WAR_TILE_INFO_Governor_GFX = {
+				image = "[This.MOON_WAR_Tile_Governor_GFX]"
 			}
 		}
 
@@ -40,7 +48,18 @@ scripted_gui = {
 
 		effects = {
 			MOON_WAR_Tile_click = {
-				set_variable = { MOON_WAR_Selected = i }
+				if = {
+					limit = {
+						NOT = {
+							check_variable = { MOON_WAR_Selected = i }
+						}
+					}
+					set_variable = { MOON_WAR_Selected = i }
+
+					else = {
+						set_variable = { MOON_WAR_Selected = -1 }
+					}
+				}
 			}
 
 			MOON_WAR_Debug_Button_click = {
@@ -53,8 +72,10 @@ scripted_gui = {
 						set_country_flag = MOON_WAR_DEBUG
 					}
 				}
-				set_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER }
 			}
+
+			MOON_WAR_Debug_GER_click = { set_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER } }
+			MOON_WAR_Debug_JAP_click = { set_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = JAP } }
 		}
 
 		triggers = {
@@ -103,6 +124,22 @@ scripted_gui = {
 					}
 				}
 			}
+
+			MOON_WAR_Tile_Information_visible = {
+				NOT = {
+					check_variable = { MOON_WAR_Selected = -1 }
+				}
+			}
+
+			MOON_WAR_Status_visible = {
+				check_variable = {
+					Global.MOON_WAR_STATUS_MAP^i = 1
+				}
+			}
+
+			MOON_WAR_Debug_Button_visible = { is_debug = yes }
+			MOON_WAR_Debug_GER_visible = { has_country_flag = MOON_WAR_DEBUG }
+			MOON_WAR_Debug_JAP_visible = { has_country_flag = MOON_WAR_DEBUG }
 		}
 	}
 	

@@ -16,6 +16,9 @@ MOON_WAR_Offset_Trigger = {
 }
 
 MOON_WAR_Border = {
+	NOT = { check_variable = {
+		MOON_WAR_Selected = -1
+	} }
 	OR = {
 		AND = {
 			check_variable = { MOON_WAR_Selected = i }

@@ -30,6 +30,12 @@ defined_text = {
 		localization_key = "GFX_MOON_WAR_Controller_GER"
 	}
 	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = JAP }
+		}
+		localization_key = "GFX_MOON_WAR_Controller_JAP"
+	}
+	text = {
 		localization_key = "GFX_MOON_WAR_Controller_NONE"
 	}
 }
@@ -44,5 +50,50 @@ defined_text = {
 	}
 	text = {
 		localization_key = "GFX_zoom_in"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Tile_Name
+	text = {
+		trigger = {
+			check_variable = { MOON_WAR_Selected = 4 }
+		}
+
+		localization_key = "Mondhauptstadt Speer"
+	}
+
+	text = {
+		localization_key = "Unknown"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Tile_Governor
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_TILE_INFO_GOVERNOR^MOON_WAR_Selected = 1 }
+		}
+
+		localization_key = "Lennaert Badart"
+	}
+
+	text = {
+		localization_key = "Unknown"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Tile_Governor_GFX
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_TILE_INFO_GOVERNOR^MOON_WAR_Selected = 1 }
+		}
+	
+		localization_key = "GFX_MOON_WAR_Governor_Lennaert_Badart"
+	}
+
+	text = {
+		localization_key = "GFX_MOON_WAR_Governor_Unknown"
 	}
 }

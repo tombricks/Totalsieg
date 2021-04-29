@@ -1,8 +1,8 @@
 guiTypes = {
 	containerWindowType = {
 		name = "MOON_WAR_Window"
-		position = { x = -200 y = 0 }
-		size = { width = 860 height = 500 }
+		position = { x = -200 y = -200 }
+		size = { width = 860 height = 660 }
 		orientation= center
 		moveable = yes
 		click_to_front = yes
@@ -27,6 +27,69 @@ guiTypes = {
 			orientation = UPPER_RIGHT
 			position = { x = -32 y = 0 }
 		}
+
+		buttonType = {
+			name = "MOON_WAR_Debug_JAP"
+			spriteType = "GFX_zoom_out"
+			orientation = UPPER_RIGHT
+			position = { x = 256 y = 0 }
+			shortcut = "J"
+		}
+
+		buttonType = {
+			name = "MOON_WAR_Debug_GER"
+			spriteType = "GFX_zoom_out"
+			orientation = UPPER_RIGHT
+			position = { x = 256 y = 0 }
+			shortcut = "D"
+		}
+
+		containerWindowType = {
+			name = "MOON_WAR_Tile_Information"
+			position = { x = 16 y = 320 }
+			size = { width = 828 height = 322 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_terminal_black"
+			}
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Tile_Name"
+				position = { x = 24 y = 16 }
+				font = "hoi_36header"
+				text = "[This.MOON_WAR_Tile_Name]"
+				maxWidth = 760
+			}	
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Governor_Title"
+				position = { x = -224 y = 16 }
+				font = "hoi_24header"
+				text = "Governor"
+				format = right
+				orientation = UPPER_RIGHT
+				maxWidth = 200
+			}	
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Governor_Name"
+				position = { x = -224 y = 40 }
+				font = "hoi_18mbs"
+				text = "[This.MOON_WAR_Tile_Governor]"
+				format = right
+				orientation = UPPER_RIGHT
+				maxWidth = 200
+			}	
+
+			iconType = {
+				name = "MOON_WAR_TILE_INFO_Governor_GFX"
+				spriteType = "GFX_MOON_WAR_Governor_Unknown"
+				position = { x = -102 y = 64 }
+				orientation = UPPER_RIGHT
+				alwaystransparent = yes
+			}
+		}
 	}
 	
 	
@@ -48,8 +111,18 @@ guiTypes = {
 
 			iconType = {
 				name = "MOON_WAR_Owner"
-				spriteType = ""
+				spriteType = "GFX_MOON_WAR_Controller_NONE"
 				position = { x = 0 y = 24 }
+				scale = 0.75
+				centerposition = yes
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "MOON_WAR_Status"
+				spriteType = "GFX_onmap_victorypoints_strip"
+				frame = 9
+				position = { x = 0 y = 46 }
 				scale = 0.75
 				centerposition = yes
 				alwaystransparent = yes

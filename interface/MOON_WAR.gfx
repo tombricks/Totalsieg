@@ -24,7 +24,22 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_MOON_WAR_Controller_JAP"
+		texturefile = "gfx/interface/MOON_WAR/controllers/JAP.tga"
+	}
+	
+	spriteType = {
 		name = "GFX_MOON_WAR_Controller_NONE"
 		texturefile = "gfx/interface/MOON_WAR/controllers/NONE.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_MOON_WAR_Governor_Unknown"
+		texturefile = "gfx/interface/MOON_WAR/governors/governor_unknown.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_MOON_WAR_Governor_Lennaert_Badart"
+		texturefile = "gfx/interface/MOON_WAR/governors/Lennaert_Badart.tga"
 	}
 }
