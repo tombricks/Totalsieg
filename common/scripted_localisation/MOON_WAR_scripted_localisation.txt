@@ -83,6 +83,25 @@ defined_text = {
 }
 
 defined_text = {
+	name = MOON_WAR_Owner_Texticon_i
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = GER }
+		}
+		localization_key = "MOON_WAR_Controller_GER "
+	}
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = JAP }
+		}
+		localization_key = "MOON_WAR_Controller_JAP "
+	}
+	text = {
+		localization_key = "MOON_WAR_Controller_NONE "
+	}
+}
+
+defined_text = {
 	name = MOON_WAR_Debug_Button
 	text = {
 		trigger = {
@@ -100,6 +119,21 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { MOON_WAR_Selected = 4 }
+		}
+
+		localization_key = "Mondhauptstadt Speer"
+	}
+
+	text = {
+		localization_key = "Unknown"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Tile_Name_i
+	text = {
+		trigger = {
+			check_variable = { i = 4 }
 		}
 
 		localization_key = "Mondhauptstadt Speer"

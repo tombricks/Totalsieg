@@ -3,3 +3,4 @@
  MOON_WAR_TILE_INFO_Manpower: "£manpower_texticon   Manpower: 992"
  MOON_WAR_TILE_INFO_Equipment: "£repairing   Equipment: 992"
  MOON_WAR_TILE_INFO_Development: "£research_icon   Development: [?Global.MOON_WAR_STATUS_MAP^MOON_WAR_Selected]"
+ MOON_WAR_TILE_TT: "£[This.MOON_WAR_Owner_Texticon_i] [This.MOON_WAR_Tile_Name_i]"

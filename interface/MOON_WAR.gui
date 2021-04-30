@@ -121,6 +121,7 @@ guiTypes = {
 				buttonFont = "hoi_20b"
 				format = center
 				position = { x = 0 y = 0 }
+				shortcut = "K"
 			}
 		}
 	}
@@ -133,6 +134,7 @@ guiTypes = {
 				spriteType = "GFX_MOON_WAR_Terrain_Tiles"
 				frame = 1
 				position = { x = 0 y = 0 }
+				tooltip = MOON_WAR_TILE_TT
 			}
 
 			instantTextboxType = {
