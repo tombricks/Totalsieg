@@ -12,6 +12,7 @@ set_major = yes
 oob = "GER_1939"
 #oob = "GER_1983"
 set_country_flag = political_factions
+set_variable = { Lunar_Capital = 4 }
 
 add_ideas = {
 	### Cabinet ###

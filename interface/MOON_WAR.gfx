@@ -12,6 +12,18 @@ spriteTypes = {
 		noOfFrames = 1
 	}
 	spriteType = {
+		name = "GFX_MOON_WAR_Terrain_Tiles_Nation"
+		texturefile = "gfx/interface/MOON_WAR/Terrain_Tiles_Nation.tga"
+		transparencecheck = yes
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_MOON_WAR_Terrain_Tiles_Highlighted_Nation"
+		texturefile = "gfx/interface/MOON_WAR/Terrain_Tiles_Highlighted_Nation.tga"
+		transparencecheck = yes
+		noOfFrames = 1
+	}
+	spriteType = {
 		name = "GFX_MOON_WAR_Terrain_Tiles_Selected"
 		texturefile = "gfx/interface/MOON_WAR/Terrain_Tiles_Selected.tga"
 		transparencecheck = yes
@@ -21,11 +33,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_MOON_WAR_Controller_GER"
 		texturefile = "gfx/interface/MOON_WAR/controllers/GER.tga"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_MOON_WAR_Controller_JAP"
 		texturefile = "gfx/interface/MOON_WAR/controllers/JAP.tga"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {

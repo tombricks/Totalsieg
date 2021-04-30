@@ -1,0 +1,5 @@
+﻿l_english:
+ MOON_WAR_TILE_INFO_TITLE: "£[This.MOON_WAR_Owner_Texticon] [This.MOON_WAR_Tile_Name]"
+ MOON_WAR_TILE_INFO_Manpower: "£manpower_texticon   Manpower: 992"
+ MOON_WAR_TILE_INFO_Equipment: "£repairing   Equipment: 992"
+ MOON_WAR_TILE_INFO_Development: "£research_icon   Development: [?Global.MOON_WAR_STATUS_MAP^MOON_WAR_Selected]"

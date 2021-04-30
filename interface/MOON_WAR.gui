@@ -58,7 +58,7 @@ guiTypes = {
 				name = "MOON_WAR_TILE_INFO_Tile_Name"
 				position = { x = 24 y = 16 }
 				font = "hoi_36header"
-				text = "[This.MOON_WAR_Tile_Name]"
+				text = MOON_WAR_TILE_INFO_TITLE
 				maxWidth = 760
 			}	
 
@@ -88,6 +88,39 @@ guiTypes = {
 				position = { x = -102 y = 64 }
 				orientation = UPPER_RIGHT
 				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Manpower"
+				position = { x = 24 y = 56 }
+				font = "hoi_18mbs"
+				text = MOON_WAR_TILE_INFO_Manpower
+				maxWidth = 760
+			}
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Equipment"
+				position = { x = 24 y = 74 }
+				font = "hoi_18mbs"
+				text = MOON_WAR_TILE_INFO_Equipment
+				maxWidth = 760
+			}	
+
+			instantTextboxType = {
+				name = "MOON_WAR_TILE_INFO_Development"
+				position = { x = 24 y = 92 }
+				font = "hoi_18mbs"
+				text = MOON_WAR_TILE_INFO_Development
+				maxWidth = 760
+			}	
+
+			buttonType = {
+				name = "MOON_WAR_TILE_INFO_Add_Development"	
+				buttonText = "Add Development (Debug)"
+				quadTextureSprite = "GFX_button_221x34"
+				buttonFont = "hoi_20b"
+				format = center
+				position = { x = 0 y = 0 }
 			}
 		}
 	}

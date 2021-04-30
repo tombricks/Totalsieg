@@ -21,7 +21,7 @@ on_actions = {
 			set_variable = { Global.MOON_WAR_CONTROLLER_MAP^3 = GER }
 			
 			set_variable = { Global.MOON_WAR_CONTROLLER_MAP^4 = GER }
-			set_variable = { Global.MOON_WAR_STATUS_MAP^4 = 1 } # Mondhauptstadt Speer
+			set_variable = { Global.MOON_WAR_STATUS_MAP^4 = 5 } # Mondhauptstadt Speer
 			set_variable = { Global.MOON_WAR_TILE_INFO_GOVERNOR^4 = 1 } # Lennaert Badart
 
 			every_country = {

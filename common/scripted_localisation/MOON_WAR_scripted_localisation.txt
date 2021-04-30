@@ -3,6 +3,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { i = MOON_WAR_Selected }
+			NOT = { check_variable = { MOON_WAR_Selected = -1 } }
 		}
 
 		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Selected"
@@ -11,9 +12,31 @@ defined_text = {
 	text = {
 		trigger = {
 			MOON_WAR_Border = yes
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected }
+			NOT = { check_variable = { MOON_WAR_Selected = -1 } }
+			NOT = { check_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = 0 } }
+		}
+
+		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Highlighted_Nation"
+	}
+
+	text = {
+		trigger = {
+			MOON_WAR_Border = yes
+			NOT = { check_variable = { MOON_WAR_Selected = -1 } }
 		}
 
 		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Highlighted"
+	}
+
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^i = Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected }
+			NOT = { check_variable = { MOON_WAR_Selected = -1 } }
+			NOT = { check_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = 0 } }
+		}
+
+		localization_key = "GFX_MOON_WAR_Terrain_Tiles_Nation"
 	}
 
 	text = {
@@ -37,6 +60,25 @@ defined_text = {
 	}
 	text = {
 		localization_key = "GFX_MOON_WAR_Controller_NONE"
+	}
+}
+
+defined_text = {
+	name = MOON_WAR_Owner_Texticon
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = GER }
+		}
+		localization_key = "MOON_WAR_Controller_GER "
+	}
+	text = {
+		trigger = {
+			check_variable = { Global.MOON_WAR_CONTROLLER_MAP^MOON_WAR_Selected = JAP }
+		}
+		localization_key = "MOON_WAR_Controller_JAP "
+	}
+	text = {
+		localization_key = "MOON_WAR_Controller_NONE "
 	}
 }
 
