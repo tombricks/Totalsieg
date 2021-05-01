@@ -57,7 +57,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Tile_Name"
 				position = { x = 24 y = 16 }
-				font = "hoi_36header"
+				font = "fixedsys_24"
 				text = MOON_WAR_TILE_INFO_TITLE
 				maxWidth = 760
 			}	
@@ -65,7 +65,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Governor_Title"
 				position = { x = -224 y = 16 }
-				font = "hoi_24header"
+				font = "fixedsys_24"
 				text = "Governor"
 				format = right
 				orientation = UPPER_RIGHT
@@ -75,7 +75,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Governor_Name"
 				position = { x = -224 y = 40 }
-				font = "hoi_18mbs"
+				font = "fixedsys_18"
 				text = "[This.MOON_WAR_Tile_Governor]"
 				format = right
 				orientation = UPPER_RIGHT
@@ -93,7 +93,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Manpower"
 				position = { x = 24 y = 56 }
-				font = "hoi_18mbs"
+				font = "fixedsys_18"
 				text = MOON_WAR_TILE_INFO_Manpower
 				maxWidth = 760
 			}
@@ -101,7 +101,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Equipment"
 				position = { x = 24 y = 74 }
-				font = "hoi_18mbs"
+				font = "fixedsys_18"
 				text = MOON_WAR_TILE_INFO_Equipment
 				maxWidth = 760
 			}	
@@ -109,7 +109,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "MOON_WAR_TILE_INFO_Development"
 				position = { x = 24 y = 92 }
-				font = "hoi_18mbs"
+				font = "fixedsys_18"
 				text = MOON_WAR_TILE_INFO_Development
 				maxWidth = 760
 			}	
