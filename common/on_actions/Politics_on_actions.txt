@@ -1,0 +1,23 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			resize_array = { AllParties = 100 }
+			# 1 - National Socialism
+			# 2 - Esoteric Nazism
+			# 3 - Monarchism
+			# 4 - Militarism
+			# 5 - Conservative Democracy
+			# 6 - Liberal Democracy
+			# 7 - Social Democracy
+			# 8 - Marxism-Leninism
+			set_variable = { AllParties^1 = 1 } 	
+			set_variable = { AllParties^2 = 2 } 	
+			set_variable = { AllParties^3 = 3 } 	
+			set_variable = { AllParties^4 = 4 } 	
+			set_variable = { AllParties^5 = 5 } 	
+			set_variable = { AllParties^6 = 6 } 	
+			set_variable = { AllParties^7 = 7 } 	
+			set_variable = { AllParties^8 = 8 } 	
+		}
+	}
+}
