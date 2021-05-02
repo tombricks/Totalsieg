@@ -6,9 +6,6 @@ scripted_gui = {
 		window_name = "politics_scripted_gui_window"
 
 		properties = {
-			factions_button = {
-				image = "[This.FactionsUiButton]"
-			}
 		}
 
 		triggers = {

@@ -19,12 +19,12 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "fixedsys_18"
 		path = "gfx/fonts/fixedsys_18"
-		color = 0xffffffff
+		color = 0xFF00FF00
 	}
 	
 	bitmapfont = {
 		name = "fixedsys_24"
 		path = "gfx/fonts/fixedsys_24"
-		color = 0xffffffff
+		color = 0xFF00FF00
 	}
 }

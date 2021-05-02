@@ -11,7 +11,7 @@ l_english:
  GER_neutrality_DEF: "Das Großdeutsche Reich"
  GER_neutrality_ADJ: "German"
  GER_neutrality_party: "NSDAP-Moderate"
- GER_neutrality_party_long: "Nationalsozialistische Deutsche Arbeiterpartei - Moderate"
+ GER_neutrality_party_long: "Nationalsozialistische Deutsche Arbeiterpartei - Moderate Faction" # Moderate
 
  GER_democratic: "Großdeutsches Reich"
  GER_democratic_DEF: "Das Großdeutsche Reich"

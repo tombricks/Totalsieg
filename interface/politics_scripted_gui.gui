@@ -6,19 +6,21 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_title"
-			position = { x = 18 y = 262 }
-			font = "hoi_16mbs"
+			position = { x = 16 y = 280 }
+			font = "fixedsys_18"
 			text = "[This.GetLeaderTitle]"
-			maxWidth = 155
+			maxWidth = 196
 			maxHeight = 20
-			format = center
-			vertical_alignment = center
+			format = centre
+			orientation = centre
 		}	
 		
 		buttonType = {
 			name = "factions_button"
-			position = { x = 512 y = 309 }
-			quadTextureSprite ="GFX_zoom_in"
+			position = { x = 488 y = 332 }
+			spriteType = "GFX_MOON_WAR_Controller_NONE"
+			buttonText = "[This.FactionsUiButton]"
+			buttonFont = "fixedsys_24"
 		}
 	}
 }

@@ -1,12 +1,8 @@
 ﻿l_english:
  party_tooltip: "[This.GetPoliticalFactionNameLong]"
  party_tooltip_delayed: "Template"
- party_text: "[This.GetPoliticalFactionIdeologyColour][This.GetPoliticalFactionName] - [This.GetPoliticalFactionIdeology]§!"
- party_communist_colour: "§R"
- party_democratic_colour: "§C"
- party_authoritarian_colour: "§g"
- party_fascist_colour: "§L"
- party_unknown_colour: "§W"
- 
+ party_text: "[This.GetPoliticalFactionName] - [This.GetPoliticalFactionIdeology]"
+ faction_title: "Factions" 
+
  TITLE_Leader: "Leader"
  TITLE_Fuhrer: "Führer"

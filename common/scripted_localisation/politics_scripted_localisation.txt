@@ -30,15 +30,6 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetPoliticalFactionIdeologyColour
-	text = { trigger = { is_in_array = { array = CommunistParties value = v } } localization_key = "party_communist_colour" }
-	text = { trigger = { is_in_array = { array = DemocraticParties value = v } } localization_key = "party_democratic_colour" }
-	text = { trigger = { is_in_array = { array = AuthoritarianParties value = v } } localization_key = "party_authoritarian_colour" }
-	text = { trigger = { is_in_array = { array = FascistParties value = v } } localization_key = "party_fascist_colour" }
-	text = { localization_key = "party_unknown_colour" }
-}
-
-defined_text = {
 	name = GetPoliticalFactionIdeology
 	text = { trigger = { is_in_array = { array = CommunistParties value = v } } localization_key = "Communist" }
 	text = { trigger = { is_in_array = { array = DemocraticParties value = v } } localization_key = "Democratic" }
@@ -53,9 +44,9 @@ defined_text = {
 		trigger = {
 			has_country_flag = show_factions_ui
 		}
-		localization_key = "GFX_zoom_out"
+		localization_key = "-"
 	}
 	text = {
-		localization_key = "GFX_zoom_in"
+		localization_key = "+"
 	}
 }
