@@ -7,16 +7,20 @@ state={
 		owner = ITA
 		buildings = {
 			infrastructure = 5
+			3943 = {
+				naval_base = 1
+
+			}
 
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = ITA
+		start_resistance = CRO
 
 	}
 
 	provinces={
-		3868 3943 6889 13241 13242 13243 13244 13245 13246 13247 13248 13249 13250 13251 13252 13253 13254 13424 13427 13428 13429 13430 13431 13432 13433 13434 13435 
+		3943 13242 
 	}
 	manpower=18000
 	buildings_max_level_factor=1.000

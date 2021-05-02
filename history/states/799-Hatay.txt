@@ -1,21 +1,25 @@
+
 state={
 	id=799
 	name="STATE_799"
-	provinces={
-		12029 
-	}
-	manpower = 234379
-	
-	state_category = enclave
 
-	history= {
+	history={
 		owner = TUR
 		add_core_of = TUR
 		victory_points = {
-			12029 1
+			12029 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
+	provinces={
+		12029 13357 13361 
+	}
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }

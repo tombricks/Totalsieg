@@ -1,10 +1,7 @@
 
 state={
 	id=454
-	name="STATE_454" #Palestine
-	manpower = 933142
-	
-	state_category = rural
+	name="STATE_454"
 
 	history={
 		owner = PAL
@@ -13,6 +10,7 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 2
+
 		}
 		victory_points = {
 			1086 1 
@@ -24,9 +22,13 @@ state={
 			1065 1 
 		}
 		add_core_of = ISR
+
 	}
 
 	provinces={
-		1015 1065 1086 1201 4088 4206 7107 7176 11970 1
+		1 1015 1065 1086 1201 4088 4206 7107 7176 11970 13281 13284 13285 13287 13295 13299 13300 13308 13311 
 	}
+	manpower=933142
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

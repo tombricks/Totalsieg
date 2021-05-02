@@ -1,0 +1,18 @@
+
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		13436 13437 13438 13439 13440 13441 13442 13443 13444 13445 
+	}
+	manpower=13443
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
