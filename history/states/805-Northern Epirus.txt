@@ -13,8 +13,9 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = ITA
+		owner = ALB
 		add_core_of = ALB
+		add_claim_by = ITA
 		victory_points = {
 			914 3
 		}

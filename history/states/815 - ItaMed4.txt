@@ -1,0 +1,18 @@
+
+state={
+	id=815
+	name="STATE_815"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		5656 13466 13480 13487 13485 13484 13483
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
