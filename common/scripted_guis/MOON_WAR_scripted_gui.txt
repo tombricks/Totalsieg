@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "MOON_WAR_Window"
 
 		visible = {
-			always = yes
+			has_country_flag = show_moon_war
 		}
 
 		properties = {
@@ -163,6 +163,45 @@ scripted_gui = {
 			MOON_WAR_Debug_GER_visible = { has_country_flag = MOON_WAR_DEBUG }
 			MOON_WAR_Debug_JAP_visible = { has_country_flag = MOON_WAR_DEBUG }
 			MOON_WAR_TILE_INFO_Add_Development_visible = { has_country_flag = MOON_WAR_DEBUG }
+		}
+	}
+
+	MOON_WAR_Toggle_scripted_gui = {
+		parent_window_token = top_bar
+		window_name = "MOON_WAR_Top_Bar"
+
+		properties = {
+			MOON_WAR_Toggle = {
+				frame = selframe
+			}
+		}
+
+		triggers = {
+			MOON_WAR_Toggle_visible = {
+				if = {
+					limit = {
+						has_country_flag = show_moon_war
+					}
+					set_temp_variable = { selframe = 1 }
+					else = {
+						set_temp_variable = { selframe = 2 }
+					}
+				}
+			}
+		}
+
+		effects = {
+			MOON_WAR_Toggle_click = {
+				if = {
+					limit = {
+						has_country_flag = show_moon_war
+					}
+					clr_country_flag = show_moon_war
+					else = {
+						set_country_flag = show_moon_war
+					}
+				}
+			}
 		}
 	}
 	

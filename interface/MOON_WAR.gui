@@ -1,5 +1,20 @@
 guiTypes = {
 	containerWindowType = {
+		name = "MOON_WAR_Top_Bar"
+		position = { x = -512 y = 2 }
+		size = { width = 300 height = 64 }
+		orientation = UPPER_RIGHT
+
+		buttonType = {
+			name = "MOON_WAR_Toggle"	
+			buttonText = "Moon War"
+			quadTextureSprite = "GFX_diplo_filter_entry"
+			buttonFont = "hoi_20b"
+			format = center
+			position = { x = 0 y = 0 }
+		}
+	}
+	containerWindowType = {
 		name = "MOON_WAR_Window"
 		position = { x = -200 y = -200 }
 		size = { width = 860 height = 660 }
