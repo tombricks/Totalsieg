@@ -1,0 +1,18 @@
+
+state={
+	id=823
+	name="STATE_823"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		13334 13325 13320 13316 13322 13329 13332 13310 13306
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

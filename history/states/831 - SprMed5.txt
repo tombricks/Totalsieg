@@ -1,0 +1,18 @@
+
+state={
+	id=831
+	name="STATE_831"
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		8819 13539 13555 13556 5531 13557 13544 13616 13537 13546 13533 13535 13538 5479 13540 13543 13541 13542
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
