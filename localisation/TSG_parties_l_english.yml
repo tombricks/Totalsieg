@@ -2,7 +2,7 @@
  party_tooltip: "[This.GetPoliticalFactionNameLong]"
  party_tooltip_delayed: "Template"
  party_text: "[This.GetPoliticalFactionName] - [This.GetPoliticalFactionIdeology]"
- faction_title: "Factions" 
+ sphere_tt: "[This.GetSphere]"
 
  TITLE_Leader: "Leader"
  TITLE_Fuhrer: "Führer"

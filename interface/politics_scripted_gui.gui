@@ -17,7 +17,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "factions_button"
-			position = { x = 488 y = 332 }
+			position = { x = 488 y = 352 }
 			spriteType = "GFX_MOON_WAR_Controller_NONE"
 			buttonText = "[This.FactionsUiButton]"
 			buttonFont = "fixedsys_24"

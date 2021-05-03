@@ -3,19 +3,19 @@ guiTypes = {
 	containerWindowType = {
 		name = "factions_scripted_gui_window"
 		position = { x = 536 y = 80 }
-		size = { width = 300 height= 577 }
+		size = { width = 370 height= 577 }
 		margin = { bottom = 8 }
 		
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_tiled_terminal_black"
+			quadTextureSprite ="GFX_tiled_terminal_scan"
 		}
 		
 		instantTextboxType = {
 			name = "title"
 			position = { x = 24 y = 18 }
 			font = "fixedsys_24"
-			text = "faction_title"
+			text = "Internal Factions"
 			maxWidth = 300
 			maxHeight = 20
 		}
